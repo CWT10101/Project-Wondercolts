@@ -1,0 +1,20 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:bdf4ca8518ca04f07c99e1a27e7f5a20:fb8f845b69ce09fc376d6a6e33783865:af5ab27e78e0bf80d59e78554cc58258$
+#
+:format=40300
+:texture=Controls.png
+:size=256x128
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+controller_background;1;30;90;97; 0.5;0.5; 0;0;0;0; 4;90;0;0;0;0;97;90;97; 2;1;2;3;0;1;3
+downarrow_controller;93;25;46;50; 0.5;0.5; 0;0;0;0; 4;46;0;0;0;0;50;46;50; 2;1;2;3;0;1;3
+leftarrow_controller;193;81;50;46; 0.5;0.5; 0;0;0;0; 4;50;0;0;0;0;46;50;46; 2;1;2;3;0;1;3
+rightarrow_controller;141;81;50;46; 0.5;0.5; 0;0;0;0; 4;50;0;0;0;0;46;50;46; 2;1;2;3;0;1;3
+uparrow_controller;93;77;46;50; 0.5;0.5; 0;0;0;0; 5;46;0;0;0;0;33;17;50;46;50; 3;0;3;4;0;2;3;0;1;2

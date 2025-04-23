@@ -1,0 +1,17 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:05f49b4714bd4a2c19e2731214984429:dc9a4f008866e0b399184b492d4927e1:dead43b0beb17e2ee7de3b4c90dcd961$
+#
+:format=40300
+:texture=Scroll.png
+:size=32x512
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+ScrollBG;1;184;12;327; 0.5;0.5; 0;0;0;0; 4;12;0;0;0;0;327;12;327; 2;1;2;3;0;1;3
+Scroller;1;100;22;82; 0.5;0.5; 0;0;0;0; 5;22;0;0;0;0;80;1;82;22;82; 3;2;3;4;0;2;4;0;1;2
