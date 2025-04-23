@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:de8bc9a42089b4c7885a081efaa0ba00:9ec6580ca8c88e7f027ef3906a667faa:90a8324ffa7f67707d6cb64c3a36fa5b$
+#
+:format=40300
+:texture=TestCustomTrack.png
+:size=512x256
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Next_1;239;19;117;117; 0.5;0.5; 0;0;0;0; 4;117;0;0;0;0;117;117;117; 2;1;2;3;0;1;3
+Next_2;358;138;117;117; 0.5;0.5; 0;0;0;0; 4;117;0;0;0;0;117;117;117; 2;1;2;3;0;1;3
+Next_3;239;138;117;117; 0.5;0.5; 0;0;0;0; 4;117;0;0;0;0;117;117;117; 2;1;2;3;0;1;3
+Next_4;120;19;117;117; 0.5;0.5; 0;0;0;0; 4;117;0;0;0;0;117;117;117; 2;1;2;3;0;1;3
+Next_5;1;19;117;117; 0.5;0.5; 0;0;0;0; 4;117;0;0;0;0;117;117;117; 2;1;2;3;0;1;3
+Next_6;120;138;117;117; 0.5;0.5; 0;0;0;0; 4;117;0;0;0;0;117;117;117; 2;1;2;3;0;1;3
+Next_7;1;138;117;117; 0.5;0.5; 0;0;0;0; 4;117;0;0;0;0;117;117;117; 2;1;2;3;0;1;3
