@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:82e453a0a16941ad23d5cb2c253a3dd7:36342a48eb5893fc4da6c6b53a8526b0:f70f8b53b31e83a7a2c39bf49bed9f2b$
+#
+:format=40300
+:texture=ColorPalette.png
+:size=256x256
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+color_palette;1;34;221;221; 0.5;0.5; 0;0;0;0; 4;221;0;0;0;0;221;221;221; 2;1;2;3;0;1;3
+color_picker;1;20;12;12; 0.5;0.5; 0;0;0;0; 4;12;0;0;0;0;12;12;12; 2;1;2;3;0;1;3
+color_slider;224;35;21;220; 0.5;0.5022727272727272; 0;0;0;0; 4;21;0;0;0;0;220;21;220; 2;1;2;3;0;1;3
+color_slider_picker;15;30;21;2; 0.5;0.5; 0;0;0;0; 4;21;0;0;0;0;2;21;2; 2;1;2;3;0;1;3
