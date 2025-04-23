@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:14f927368a65f992fc2f6b294a73c63b:3a8dc60b9280d66dbe23760bfee68794:5aa55782e381c958e002ad1a586acf0a$
+#
+:format=40300
+:texture=YellowSelection.png
+:size=2048x512
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+YellowSelection_1;538;375;535;136; 0.5;0.5; 0;0;0;0; 4;535;0;0;0;0;136;535;136; 2;1;2;3;0;1;3
+YellowSelection_2;1530;377;517;134; 0.5;0.5; 0;0;0;0; 4;517;0;0;0;0;134;517;134; 2;1;2;3;0;1;3
+YellowSelection_3;1552;247;495;128; 0.5;0.5; 0;0;0;0; 4;495;0;0;0;0;128;495;128; 2;1;2;3;0;1;3
+YellowSelection_4;1;249;473;124; 0.5;0.5; 0;0;0;0; 4;473;0;0;0;0;124;473;124; 2;1;2;3;0;1;3
+YellowSelection_5;1;129;453;118; 0.5;0.5; 0;0;0;0; 4;453;0;0;0;0;118;453;118; 2;1;2;3;0;1;3
+YellowSelection_6;1075;399;431;112; 0.5;0.5; 0;0;0;0; 4;431;0;0;0;0;112;431;112; 2;1;2;3;0;1;3
+YellowSelection_7;1;375;535;136; 0.5;0.5; 0;0;0;0; 4;535;0;0;0;0;136;535;136; 2;1;2;3;0;1;3

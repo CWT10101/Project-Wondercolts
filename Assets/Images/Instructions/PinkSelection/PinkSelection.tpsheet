@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:0c700403506d9e56f53cc59b905622ea:57918ed600d8103728ed34237df29021:c23ee453566b2c91766f41f2f0919cb8$
+#
+:format=40300
+:texture=PinkSelection.png
+:size=2048x256
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+PinkSelection_1;538;145;535;110; 0.5;0.5; 0;0;0;0; 4;535;0;0;0;0;110;535;110; 2;1;2;3;0;1;3
+PinkSelection_2;1530;146;517;109; 0.5;0.5045871559633027; 0;0;0;0; 5;517;4;508;0;0;0;0;109;517;109; 3;1;3;4;1;2;3;0;1;4
+PinkSelection_3;1;38;495;105; 0.5;0.5047619047619047; 0;0;0;0; 4;495;0;0;0;0;105;495;105; 2;1;2;3;0;1;3
+PinkSelection_4;1574;44;473;100; 0.5;0.5; 0;0;0;0; 4;473;0;0;0;0;100;473;100; 2;1;2;3;0;1;3
+PinkSelection_5;498;47;453;96; 0.5;0.5; 0;0;0;0; 4;453;0;0;0;0;96;453;96; 2;1;2;3;0;1;3
+PinkSelection_6;1075;163;431;92; 0.5;0.5; 0;0;0;0; 4;431;0;0;0;0;92;431;92; 2;1;2;3;0;1;3
+PinkSelection_7;1;145;535;110; 0.5;0.5; 0;0;0;0; 4;535;0;0;0;0;110;535;110; 2;1;2;3;0;1;3
