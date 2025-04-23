@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1151555330298495}
+  m_IsPrefabParent: 1
+--- !u!1 &1151555330298495
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4321871104710078}
+  - component: {fileID: 33591626641545491}
+  - component: {fileID: 23879290055250612}
+  - component: {fileID: 114032310782399120}
+  - component: {fileID: 65086001847384099}
+  - component: {fileID: 114049860492356442}
+  m_Layer: 0
+  m_Name: Motocross Obstacle Tires
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4321871104710078
+Transform:
+  m_GameObject: {fileID: 1151555330298495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4901101822657311}
+  - {fileID: 4458551444848870}
+  - {fileID: 4096205181632693}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33591626641545491
+MeshFilter:
+  m_GameObject: {fileID: 1151555330298495}
+  m_Mesh: {fileID: 4300000, guid: c0e4f4a21fab8474391c1e56d8902fd4, type: 2}
+--- !u!23 &23879290055250612
+MeshRenderer:
+  m_GameObject: {fileID: 1151555330298495}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d1fc46aea10cf624abea5cfff635fc9b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114032310782399120
+MonoBehaviour:
+  m_GameObject: {fileID: 1151555330298495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc7df0c8be2d02448b69c8d8ed2c9c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65086001847384099
+BoxCollider:
+  m_GameObject: {fileID: 1151555330298495}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.92, y: 2.72, z: 7.78}
+  m_Center: {x: 0, y: -3.604286E-09, z: 0.21}
+--- !u!114 &114049860492356442
+MonoBehaviour:
+  m_GameObject: {fileID: 1151555330298495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a065c2605ba3d1439d193046f3da789, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1762500652308282
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4901101822657311}
+  - component: {fileID: 114912583154867197}
+  - component: {fileID: 65853274934209452}
+  - component: {fileID: 114274899346640817}
+  m_Layer: 0
+  m_Name: JumpTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4901101822657311
+Transform:
+  m_GameObject: {fileID: 1762500652308282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4321871104710078}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114912583154867197
+MonoBehaviour:
+  m_GameObject: {fileID: 1762500652308282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc7df0c8be2d02448b69c8d8ed2c9c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65853274934209452
+BoxCollider:
+  m_GameObject: {fileID: 1762500652308282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 8}
+  m_Center: {x: -4, y: 0.5, z: 0}
+--- !u!114 &114274899346640817
+MonoBehaviour:
+  m_GameObject: {fileID: 1762500652308282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d125a6218cb5347b70780476de77e6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1088362126617563
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4458551444848870}
+  - component: {fileID: 114888902406083547}
+  - component: {fileID: 65066787650655627}
+  - component: {fileID: 114347643097997557}
+  m_Layer: 0
+  m_Name: JumpTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4458551444848870
+Transform:
+  m_GameObject: {fileID: 1088362126617563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4321871104710078}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114888902406083547
+MonoBehaviour:
+  m_GameObject: {fileID: 1088362126617563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc7df0c8be2d02448b69c8d8ed2c9c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65066787650655627
+BoxCollider:
+  m_GameObject: {fileID: 1088362126617563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 8}
+  m_Center: {x: -7, y: 0.5, z: 0}
+--- !u!114 &114347643097997557
+MonoBehaviour:
+  m_GameObject: {fileID: 1088362126617563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d125a6218cb5347b70780476de77e6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1350362217973592
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4096205181632693}
+  - component: {fileID: 114489073244136658}
+  - component: {fileID: 65347389944421217}
+  - component: {fileID: 114126347448901007}
+  m_Layer: 0
+  m_Name: JumpTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4096205181632693
+Transform:
+  m_GameObject: {fileID: 1350362217973592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4321871104710078}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114489073244136658
+MonoBehaviour:
+  m_GameObject: {fileID: 1350362217973592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc7df0c8be2d02448b69c8d8ed2c9c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65347389944421217
+BoxCollider:
+  m_GameObject: {fileID: 1350362217973592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 8}
+  m_Center: {x: -10, y: 0.5, z: 0}
+--- !u!114 &114126347448901007
+MonoBehaviour:
+  m_GameObject: {fileID: 1350362217973592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d125a6218cb5347b70780476de77e6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
