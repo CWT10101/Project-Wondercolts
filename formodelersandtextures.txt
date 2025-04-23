@@ -1,0 +1,48 @@
+Either download the map files (Maps_VMF.zip) by editing using hammer, or start from scratch (with assets and textures included in the development assets, which is required to work with, if you haven't downloaded them, the link is located below).
+If you have made the changes as mentioned below, let me know, sent me the files and I'll update it, and test it out for revisions.
+
+==Steps==
+
+1. Download the "Maps_VMF.zip file.
+2. Copy the files inside the "Maps_VMF.zip" (don't extract), into a different folder.
+3. Open Hammer.
+4. Open the forementioned maps that were decompiled, browse through the map to make sure there's no problems, "no "ERROR" objects showing up and all walls removed to show the black sky, (which is needed in order for the skybox to show up)
+
+==Canterlot High==
+
+- Add the Doctor's Room in any room that has the yellow background on the walls, but the floors on that room has to be replaced.
+- There should be more than one benches near the soccer field.
+- There should be a sports commentary near the soccer field.
+- There needs to be rails on the stairs in the library.
+- Create and add the Copier Printer Scanner Machine into the library.
+- Create and replace the Monitor and Keyboard Models based on the series, due to the ones not fitting it's art style.
+- Add more trees and bushes to avoid seeing mostly empty space.
+- Remove all three pictures of Sunset Shimmer found in Principal Celestia's office.
+- (Optional) Extend the map a little more with more roads, ground and houses to avoid seeing mostly empty space.
+
+==Mainstreet A==
+
+- (Optional) Extend the map a little more with more roads, ground and buildings to avoid seeing mostly empty space.
+
+==Sunset Shimmer's Apartment==
+
+- Create and replace the Keyboard Models based on the series, due to the ones not fitting it's art style.
+- Remove the bulletin board with pictures on it and the shelf that's faced horizontal next to the TV and Window in Sunset's Apartment.
+- Remove the secret room.
+- Add more buildings in Sunset Shimmer's Apartment (Especially when looking out the window inside).
+- Extend the map more with more roads, ground and buildings to avoid seeing mostly empty space.
+
+==For All Maps==
+
+- Remove all of the Derpy posters.
+- (Optional) Create and add graphical textures to other houses and buildings.
+
+==Notes==
+
+- If chosen to recreate the maps from scratch, please have the maps look exactly like it was when it was first made (albeit with some changes as listed above).
+- The character model parts needs to be created seperately, (hair, head, arms and hands, shirt, skirt, legs, shoes) as they were like that when the models were first made, and all were combined in another file by importing them. (unless if a long-sleeved shirt or jacket is made, only apply the hands, or if the character doesn't wear shoes, but flip flops or slippers, only apply the legs and feet together, or if it's Applejack's pajamas which is (Blanket Sleeper) which cover's the body except for the hands.
+
+---------------
+
+- As for the characters, "blender" files are included, since I had to download and import them to blender (credits are in "details"), the only things that needs to be adjusted is the bones to the characters, I included both "BoneFix" files for better results, the first file "BoneFix.py" is the best option, although the only problem is the character's bones has to be connected perfectly, and can't look off, because when I did this, the right bone on the hip of the character looks way off, when I exported it to Unity, moving the right hip will have it lift to the left instead of straight, looking to see if someone can edit the BoneFix file to make the bones on the right hip look straight instead of being connected to the left.
+- "BoneFixSFM2.8.py" does connect the bones of both hips straight, but doesn't connect the bones to the head. (I strongly recommend editing and using the first option; especially because I want the playable character's hair to have movements; specifically when moving and falling.)

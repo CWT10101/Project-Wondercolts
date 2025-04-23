@@ -1,0 +1,455 @@
+- for more information, check out "codingthemenu.txt" and the "Template" files. (Unity is required to view the "Template" files)
+- If you have any questions, let me know!
+- Some image files have "tpsheet", while some images are in folders as numbers that might have to be bundled in one (like many other games when they store the textures/images in one).
+- If you have coded them, let me know, sent me the scripts that were added/changed and I'll update it, and test it out for revisions.
+- Some files from the Development assets is required to work with, if you haven't downloaded them, the link is located below.
+
+==Main Menu==
+
+After pressing a key at the title screen, play "sound_menu_start", then switch to "MainMenu"
+If the cursor touches a menu (except for scroller), play "sound_menu_cursor".
+If the back button (Cancel.png) is selected, play "sound_menu_back".
+If the Checkmark button (Accept.png) is selected, play "sound_menu_confirm".
+When selecting Online at the Main Menu, go to Connecting with "sound_loading", playing.
+Transparent Background can only be enabled if Prompts to Create Lobby or Join a Private Lobby and error boxes are on.
+After clicking on the checkmark for Error and Timeout Box, go back to Main Menu.
+If there's no rooms when entering "Online", go to NoRoomBox.
+in Create Lobby, Private Lobby is a toggle button, Checkmark means yes, and X means no.
+in Create Lobby, the limit of Max Players is between 4 and 14.
+The Username and Room ID are typeable.
+If online mode is selecting while the player is offline, go to OfflineBox.
+In the Player List, if another player enters the same room, have the player's name and character appear.
+In the Player List, if a player enters the room while choosing a character and stage, have "CHOOSING..." appear on the bottom, after the player chooses the character and enters the stage, have the character's name appear on the bottom, and an 8-bit icon of the exact character appear on the left.
+In Options, the Music and Sound can be muted by clicking on the buttons, to enable them again, click on it again.
+In Options, the arrows on Music, Master, SFX and Voice is a slider.
+In Options, the languages can be changed from left to right. (Don't include for right now, as the game is in the early steps)
+In Controls Menu, the keys can be changed by clicking on the button and pressing any key, (e.g. the Jump button is a space bar, by clicking on the button and pressing "J", you have to press "J" to jump.)
+The Left and Right arrows are buttons and has animation.
+Have the credits text move up, loop after the disclaimer leaves the screen.
+In Online, Character and Stage menus, have the accept button into "accept_button_7", until a room, character and stage is chosen.
+All buttons (except for control buttons) have animations when clicking on it.
+In Character Selection, If a character's cutie mark is selected, play "_selected"
+In Character Selection, The character's default outfit is "normal", but change it if the arrow buttons are selected. (e.g. Normal, click on right and it's Fall Formal, with the character's fall formal model highlighted.)
+In Character Selection, have the left and right buttons into "left_button_7" and "right_button_7, until a character's cutie mark button is chosen.
+In Character Selection, have the character's model appear between the Left and Right arrows.
+In Character's Selection have the outfit name and Character's name appear after the character's cutie mark button is selected.
+If the left button is selected, play "sound_menu_previous".
+If the right button is selected, play "sound_menu_next".
+Each time a button (except for main menu) is selected, play "sound_menu_select".
+Whenever the arrows for changing wardrobe is clicked on, play "sound_cloth" with a different outfit model of the character. (More information can be found in "WardrobeCoding.txt")
+Whenever an error box appears, play "sound_error".
+Play "menu_1/2/3" throughout the menu, until the player quits or after selecting a stage.
+
+==General==
+
+The Pop Up boxes has animation, have it go down when the transparent bg fades in, then have it go up if the player selects yes or no.
+The Help button will display a big box on how the Track Editor or camera mode is done.
+The Cancel, Accept, Random, Help, Zoom, Camera, Leave Game, Replay buttons have animations, when clicking on it, play the animation.
+Special FX, like impacts, riding, running, swings, correct choices, etc. has to be created and coded in.
+Every Minigame has to have a short cutscene, before the countdown begins. (such as Characters moving and the camera fading in.)
+Play "music_minigame" for every minigame (except for Battle Royale, Passcode Beat, Dancing, Archery, Motocross, Rollerblade, and Cosmic Battle), start when the countdown appears.
+If the character touches the white spot on the ground (Location or Minigame), have the text slide down, and if the character leaves, have the text slide up out of the screen.
+In Online Mode, have the character's username appear above the character's head (except for the character that the player is controlling)
+
+==Controlling Characters== (More information can be found in "Animations.txt")
+
+If the character is in idle for 30 seconds, play different idle animations, once finished, revert back to normal idle.
+If a character jumps, Play "sound_jump" with the character's animation in "Jump Anticipation"
+If a player moves forward or backwards, then quickly slide forward or backwards, play the "sound_skidding" with the character's skidding animation.
+If a player moves slightly, have the character go to "Walk Cycle" animation.
+If a player moves mediumly, have the character go to "Jogging Cycle" animation.
+If a player moves all the way, have the character go to "Run Cycle" animation.
+If a character is walking/running, play "sound_footsteps" depending on what type the character is moving from the ground (grass, floor, mud, snow, etc.)
+Character's animation "Jump Fall Idle" only plays after "Jump Anticipation" or if a character walks off the ledge.
+Character's animation "Jump Landing" only plays if a character lands on the ground after "Jump Anticipation" fewer then 2 seconds. Don't play if the player uses the analog stick to continue moving.
+If the character's "Jump Fall Idle" lasts longer then 2 seconds while falling, play "falling" voice clip, then if the player lands on ground, play "Awkward Landing" from the character, with "sound_awkwardlanding" playing. Don't have the player control the character until the animation is finished.
+If the player rotates the analog stick then jumps or while the player is in "Jump Fall Idle" animation, switch to "Spin Attack" animation with the character's spinning and their falls slowing down.
+If the character touches the wall, go to "Walk Cycle" animation, then stop the player moving until the player turns around to move with more space.
+If the character stands near a ledge, play "lose_balance" voice clip with the animation "Loses Balance" playing. Although the timing of the voice clip needs to be delayed to just 1 second.
+If the character touches a door, play "sound_door_open/sound_doorcanterlotopen" sound and if an image of the door handle is on the left, play "Opens Door (Left Handle)" animation, or "Opens Door (Right Handle) if an image of the door handle is on the right to have the character open the door and walk through, then play "sound_door_close/sound_door_canterlotclose" with the door closing animation. Don't have the player control the character until the animation is finished.
+When talking to a NPC, have the NPC's animation "Idle Talking NPC" play with the speech bubble appearing on the bottom (Functions exactly like in The Legend of Zelda when talking to NPC's.)
+If a player gets hit from a forward or back attack, play "sound_collision" and "hit" voice clip at the same time, with "Hit Forward" and "Hit Back" animation playing. Don't have the player control the character until the animation is finished.
+If a player gets hit while in air, a spin attack from another player or touches Pinkie Pie's Sugar Explosion (sprinkles) in Battle Royale from forward or back, play both "sound_collision" and "hurt" voice clip at the same time, with "Knocked Forward in Air" and "Knocked Back in Air", then once the player hits the ground, play "Lands on Front" and "Lands on Back", then after the animation, play "Gets Up from Front" and "Gets Up from Back". Also, have the player move a few inches while the "Knocked Forward in Air" and "Knocked Back in Air" is playing. Don't have the player control the character until these animations are finished.
+Whenever the player attacks the door, play "sound_door_slam".
+Whenever the player attacks, play "sound_roll" or "sound_attack" (these play randomly).
+If the player hits a key to attack while the character is in "Jump Fall Idle" animation, switch to "Kick in Air", then when the animation is done, switch back to "Jump Fall Idle", the falling and landing timing still needs to apply.
+If a player clicks on another player (except NPC), have animation "Idle Hand Waving Salutation" play, Don't have the player control the character until the animation is finished.
+
+==Normal Gameplay UI==
+
+Have the Phone, Camera and Wardrobe button animations slide up.
+Zoom Up and Zoom Down are buttons.
+If the zoom up button is selected, play "sound_zoom_up"
+If the zoom down button is selected, play "sound_zoom_down"
+If the phone icon is selected, have the Chat Panel slide to the right and have it stay there until the player presses the phone again.
+If another player sents a message, have the notification appear below the phone with the sound "sound_message" playing.
+If a player joins the room, have the system sent ""Username" has joined the lobby." with "sound_follow" playing.
+If a player leaves the room, have the system sent ""Username" has left the lobby." with "sound_follow" playing.
+Every time a player sends a message, play "sound_response".
+If the game is being played in solo, don't show the phone.
+If Camera is chosen, go to Camera Mode.
+If the Hanger is chosen, go to Wardrobe Selection.
+If a player selects a minigame found somewhere in the stage, have Minigame Box appear.
+In Online, if another player selects a minigame and clicks on yes, have the Friend Minigame Box appear to all players.
+Transparent Background can only be enabled if Messages and error boxes appear.
+In Wardrobe Selection, have the transparent BG on, and the character's model appear between the Left and Right arrows.
+If the left button is selected, play "sound_menu_previous".
+If the right button is selected, play "sound_menu_next".
+Each time the Phone, Camera and Hanger is selected, play "sound_menu_select".
+If a player hits a key to talk to a NPC, play "sound_dialogue_popup" with the camera zooming into the two characters.
+Whenever a player hits a key or click to resume, play "sound_dialogue_continue".
+Disable the attacks outside of Battle Royale.
+If a player press a key (except when moving and jumping) while touching the Interactive Circle, play "sound_fade", then go to Loading Screen. (go to the scene that is asked for)
+While the player is talking to a NPC, don't have the player control the character until NPC's conversation is done. (With the camera zooming out back into normal gameplay)
+
+==Minigame UI==
+
+The countdown has animation.
+play "sound_countdown" when the countdown appears. (play when 3, 2, and 1 appears.)
+Have "START" appear after 1 disappears with a zoom in with "sound_countdown_start" playing.
+Have "FINISH" zoom in to center, then zoom out of the screen after 2 seconds of being on the center while "sound_timeup" plays.
+If the timer hits "0:10", play "sound_clockticking" with the text flashing from white to red.
+The Character's names, on the bottom of the timer and scores, are if the player is playing that character.
+After the "FINISH" disappears, have the camera zoom in the winning character, play win animation with "win" voice clip playing.
+
+==Minigame Results==
+
+Have the Transparent BG on.
+Have the final results ranking animation slide up to the screen first, then the Retry and Leave Game buttons slide up.
+The Retry and Leave Game buttons has animations.
+Play "music_win" when the Minigame Results appear, follow by the "music_results".
+Do not show the Retry and Leave Game buttons if the player who joined the game room is playing.
+The Character's names, on the results, are if the player is playing that character.
+If a minigame ends in a draw, play "music_tie", follow by the "music_results".
+
+==Camera==
+
+Camera Mode has a color picker for the backgrounds.
+The Camera Lines only saves the game (Functions like Camera Mode in The Sims).
+The selection default is Character Poses, if BG or Filter is selected, have one of them that is selected, appear with different choices.
+Every time the Camera button is clicked on, play "sound_camera_shot", then save capture the image on the "Pictures" folder on where the game is being located.
+The orders of poses in the "Character Folder" for the Animations (Normal Idle, Shooting Pose 1, Shooting Pose 2, Shooting Pose 3, Shooting Pose 4, Shooting Pose 5, Shooting Pose Trophy, Shooting Pose Guitar)
+The orders of Backgrounds in the "BG Folder" (1, 2, 3, camera_burst_1, camera_pain_1, camera_scary, Night Sky, Instrument, RRBG_1, RRBG_2, RRBG_3, RRBG_4, RRBG_5, RRBG_6, RRBG_7, BG_Swirls, camera_certain, camera_hearts, 10, 11, BG_Blue, BG_Yellow)
+
+==Pause Menu==
+
+Have the Transparent BG on.
+In Options, the Music and Sound can be muted by clicking on the buttons, to enable them again, click on it again.
+In Options, the arrows on Music, Master, SFX and Voice is a slider.
+If Leave Game is selected, have ReturnTitleBox appear.
+Each time a button is selected, play "sound_menu_select".
+
+==Minigame Menu==
+
+Have the Transparent BG on.
+If Motocross and Rollerblades are selected, go to GameModeRacing after GameModeOnline unless if played in solo.
+If Dancing Mode is selected, go to GameModeDance, then Dance Song List after GameModeOnline unless if played in solo.
+If Memory Game is selected, go to CategorySelection after GameModeOnline unless if played in solo.
+In Online, have the pleasewait Animation appear on the number until the player appears.
+If Play Created Tracks is selected while in Motocross and Rollerblades, go to Custom Track Selection.
+If Track Editor is selected, switch to Track Editor.
+Clicking on the Star BG on the left side of the course name box will have the star appear, while clicking on it again will have it disappear.
+Have "Favorites" disabled, until the player favorites a custom track.
+If Help is selected, go to Help Instructions, then Help Controls if the View Controls button on Help Instructions is selected.
+Two/FourPlayerMiniGameSolo only shows up if the minigame is being played in solo while Two/FourPlayerMiniGameOnline only shows up if the minigame is being played in Online.
+Only show the Stage Selection in Dancing Minigame.
+Do not show the Stage Selection with arrows if the player joins the room.
+The Left and Right arrows are buttons and has animation..
+If the left button is selected, play "sound_menu_previous".
+If the right button is selected, play "sound_menu_next".
+In Solo, the arrows for CPU 2, 3 and 4 can change characters.
+The Order of characters when changing it in solo (Twilight Sparkle, Sunset Shimmer, Applejack, Fluttershy, Rainbow Dash, Pinkie Pie, Rarity, Indigo Zap (Archery/Motocross/Rollerblades only), Lemon Zest (Archery/Motocross/Rollerblades only), Sour Sweet (Archery/Motocross/Rollerblades only), Sugar Coat (Archery/Motocross/Rollerblades only), Sunny Flare (Archery/Motocross/Rollerblades only))
+Show the Control Background in View Controls. go to "Controls.txt" for more information.
+When selecting Join Room at the Game Room Selection, go to Connecting with "sound_loading", playing.
+If the left button is selected, play "sound_menu_previous".
+If the right button is selected, play "sound_menu_next".
+Each time a button (except for arrows) is selected, play "sound_menu_select".
+When selecting Play Created Tracks, go to Connecting with "sound_loading", playing.
+Keep "Connecting" on until the rooms and created tracks appear, otherwise play error box.
+If there's no rooms when entering "Join Room", go to NoRoomBox.
+
+==Track Editor==
+
+When clicking on the right arrow, have the Leave Box appear.
+Show the full stage except for the borders on top and bottom unless Play is selected.
+The White bar above Level Name is textable.
+Zoom Up and Zoom Down are buttons.
+If the zoom up button is selected, play "sound_zoom_up"
+If the zoom down button is selected, play "sound_zoom_down"
+Have Erase button locked until an object on the stage is clicked on.
+The Object highlighted on the left can be clicked on, which inserts the object on the stage.
+The Location highlighted on the right can be clicked on, which changes the stage.
+The track is always connected each time it is selected, like in Excitebike 64's track editor.
+The Left and Right arrows are buttons and has animation.
+If the left button is selected, play "sound_menu_previous".
+If the right button is selected, play "sound_menu_next".
+Each time an object, play button is selected, play "sound_menu_select".
+When clicking on the play button, it switches to a test run where the player can ride on the track until the players clicks on the back button.
+Transparent Background can only be enabled if Messages and error boxes appear.
+In Wardrobe Selection, have the transparent BG on
+If the player uploads, but the track is not complete, not named or is offline, have GoalPlayBox, GoalSaveBox, NameSaveBox or InternetBox appear.
+If the player uploads without the above problems, have SaveBox appear.
+If the player clicks on the back button, unless it is uploaded, have LeaveBox appear.
+If Play is clicked on, hide everything else except for leave, which takes the player back into the editor.
+The Order of objects in Motocross (Dirt Straight, Dirt Ramp Up, Dirt Ramp Down, Dirt Spike, Dirt Curve Left, Dirt Curve Right, Plant Monster, Platform Straight, Platform Ramp Up, Platform Ramp Down, Platform Spike, Platform Curve Left, Platform Curve Right, Slope 1, Slope 2, Slope 3, Mud, Tires, Haystack Small, Haystack Medium, Boost, Shield, 100 Points, 250 Points, 500 Points, Goal)
+The Order of objects in Rollerblades (Platform Straight, Platform Ramp Up, Platform Ramp Down, Platform Spike, Platform Curve Left, Platform Curve Right, Slope 1, Slope 2, Slope 3, Hurdle High, Hurdle Low, Boost, Shield, 100 Points, 250 Points, 500 Points, Goal)
+
+==Canterlot High==
+
+If the character touches the Gymnasium door (with handles), play "sound_door_open/sound_door_canterlotopen" sound and "Open Gymnasium Door" animation, to have the character open the door and walk through, then play "sound_door_close/sound_doorcanterlotclose" with the door closing animation. Don't have the player control the character until the animation is finished.
+CUTSCENE: If the player walks into the boys washroom, play "sound_enterboyswashroom", then when the sound is finished, have the player exit the washroom with a voice clip (Twilight Sparkle and Sunset Shimmer's "Cold", Applejack and Rainbow Dash's "Lose_5", Fluttershy and Rarity's "Idle_1", and, Pinkie Pie's "Idle_2"), the timing has to be right when the door opens after the sound.
+"ambience_school" has to be played when going inside the school.
+"ambience_cafeteria" has to be played when going inside the cafeteria.
+If a character is in idle for 30 seconds while in the freezer room found in the kitchen in the cafeteria, play "Shivering" animation with "Cold" voice clip playing, then when it's finished, play "Sneezes" animation with the character's "Sneezes" voice clip (except for Sunset Shimmer, loop the shivering animation) playing, then go back to play "Shivering" animation in a loop until the player moves.
+The following Interactive Circles has to be placed:
+ - Soccer (the middle of the soccer field)
+ - 1 on 1 Basketball (the middle of the basketball field)
+ - Archery (near the wall where the two trophys on the left near the cafeteria in the first floor)
+ - Motorcycle (near the wall where other awards on the right near the cafeteria in the first floor)
+ - Rollerblades (near the wall with trophys and a football trophy and the door in the cafeteria in the first floor)
+ - Memory Game (near the counter, with the two computers and shelf of books in the yearbook room in the first floor)
+ - Dance Off (The stage in the gym)
+ - Match the Ingredients (near the counter next to the oven and bowl in the kitchen in the first floor)
+ - Don't pop the balloon! (The storage room in the gym)
+ - Grab the Coins! (near the counter with a computer in a classroom in the second floor)
+ - Battle Royale (next to the Canterlot High School statue near the wall where it has a portal)
+ - Mainstreet A (The road near the soccer field and tree)
+
+==Mainstreet A==
+
+If the character is in idle for 30 seconds, while standing on the disco floor, have the character's multiple different dancing from the dancing minigame play.
+If the player hits a key while near the music machine, play a random music.
+"ambiance_mainstreet" is played when outside.
+If a character is in idle for 30 seconds while in the freezer room found in the kitchen in The Sweet Snacks Cafe, play "Shivering" animation with "Cold" voice clip playing, then when it's finished, play "Sneezes" animation with the character's "Sneezes" voice clip (except for Sunset Shimmer, loop the shivering animation) playing, then go back to play "Shivering" animation in a loop until the player moves.
+The following Interactive Circles has to be placed:
+ - Dance Off (The Dance floor in The Sweet Snacks Cafe)
+ - Grab the Coins! (near the door)
+ - Battle Royale (near the wall next to the vending machine)
+ - Canterlot High (The road when heading down from Sugarcube Corner)
+ - Sunset's Apartment (The road when heading down from The Sweet Snacks Cafe)
+
+==Sunset's Apartment==
+
+CUTSCENE: If the player touches the entrance door, quickly fade out, after the character opens the door and enters, then fade in to have the character teleport to Sunset's room.
+"ambiance_mainstreet" is played when outside.
+The following Interactive Circles has to be placed:
+ - Cosmic Battle (near Sunset Shimmer's Couch and TV)
+ - Grab the Coins! (Near Sunset Shimmer's Computer Desk)
+ - Mainstreet A (The left of Sunset Shimmer's Apartment)
+
+==Archery==
+
+Have the "ROUND %d" zoom in to the center for 2 seconds, then zoom out.
+Three rounds are played, If player 4 uses up 5 arrows, proceed to round 2, then 3, and cue "FINISH".
+Start the arrow ammo at 5.
+After the player use up 5 arrows, have the next player play.
+The arrow for the meter goes up and down and can be stopped by pressing a key.
+Fade in the player's collect (as seen below the player's score) for 2 seconds, then fade out, while "sound_score" plays.
+After the player's collect fades out, add the total to the player's score (e.g. "+50", from 0 to 50)
+Every time the arrow is released, play "sound_archery_bow_release".
+Every time the arrow hits the target or ground, play "sound_archery_arrow_hit"
+Every time the arrow hits the bullseye, play "sound_archery_arrow_hit" and "sound_arrow_magichit" at the same time, with a Special Effect.
+If Time runs out, have the player automatically release the arrow.
+Fade to Black after the player's score is added, then fade in at the same position.
+Intro: Fade in to the target, then move the camera to the position of the players. (Hold there until after the "START" disappear), than cut to the target in first person.
+Play "music_archery_rollerblades_motocross_theme" throughout the minigame, or "music_archery_rollerblades_motocross_theme_night" if it's played at night.
+
+==Soccer==
+
+Start the kick tries at 5.
+After the player use up 5 tries, have the next player play.
+After the fourth player use up five tries, cue "FINISH".
+The arrow for the meter goes left and right and can be stopped by pressing a key.
+After the players presses a key to stop the arrow, or if time runs out, have the player go to "Running" animation, then "Kick while running", when their feet is close to the ball on the ground, have the ball move depending on what duration to the meter that the player stopped on, (If it stops at yellow, the player kicks the ball straight, if it stops on red, have the ball move a little to the left/right)
+Have the player's animation "Idle Goalie" play when their the goalie (found close to the goalie)
+If the player (who's the goalie) turns the analog stick to left or right, when the ball is moving, play "Dive Save Left/Right", while moving the player a little bit while close to the goalie, don't have the player control the character until the ball starts moving.
+The Goalie Order: If Player 1 is the kicker, have player 2 to be the goalie, then if it's player 2 who is the kicker, have Player 3 to be the goalie, if Player 3 is the kicker, have player 4 to be the goalie, and finally, if player 4 is the kicker, have player 1 to be the goalie.
+Fade in the player's collect (as seen below the player's score) for 2 seconds, then fade out, while "sound_score" plays.
+After the player's collect fades out, add the total to the player's score (e.g. "+1", from 0 to 1)
+If time runs out, have the player automatically run and kick the ball. 
+If the fourth player uses up all 10 tries, cue "FINISH".
+The Goalie awards the player 1 point each time. 
+Play "sound_minigame_soccerwhistle" whenever "START" and "FINISH" appears.
+Don't show the meter if the player is not the kicker.
+
+==1 on 1 Basketball== (Do not work on this until later, as the basketball model isn't created)
+
+If a player scores, show the scores. Have score on the left slide right, and the right slide left.
+If time runs out, cue "FINISH".
+The Hoop awards player 2/3 points each time. 
+The Player on the left has to score the right, while the player on the right has to score on the left.
+If a player has 21 points, cue "FINISH".
+Each game starts off with Player 1 holding the ball.
+If the player has the ball, play "Basketball - Dribble while Standing" animation when not moving, and "Basketball - Dribble while Moving" if the player moves.
+If the player pushes a button to jump while holding the ball without moving, play "Basketball - Jumps and Throws", or "Basketball - Jumps while moving" if the player pushes a button to jump while moving, don't have the player move the character until the animation is done. Also, have the timing on the basketball toss away from the player when the player is in midair of a jump.
+If a player pushes a button to punch while jumping without holding the ball, play "Basketball - Punch while in air" animation, then proceed to play "Landing" animation. If the player touches the ball, play "Basketball - Holding Basketball in air", then if the character lands to the ground, play "Basketball - Landing holding the Basketball". Don't have the player control the character until these animations are done.
+If the player jumps near the basketball net while holding the ball, play "Basketball - Grabbing on Rim and letting go" animation, don't have the player control the character until the animation is done.
+If the player throws the ball, have the ball fly towards the net, if the player is close to the net, have the player automatically score, due to "Basketball - Grabbing on Rim and letting go" animation playing, have the chances decrease if the player throws the ball and is further from the net. (Have the ball hit the rim, or the backboard, and bounced to the ground, unless the player touches it.)
+If the ball leaves the field, cue "OUT OF BOUNDS"
+Each time the player scores or if the ball leaves the field, reset the character's position.
+
+==Motocross==
+
+Intro: Fade in to the camera showing four players at the goal mark.
+Play "sound_motocross_start" when the player is not moving.
+Play "sound_motocross_run" and "sound_motocross_accelerate" when holding the gas.
+If the bike is off the ground (except for bailing) play "sound_motocross_jump".
+If a player hits another players, play their "hit" voice clips, or "sound_motocross_femaleow" in Shadowbolts's case, and "sound_collision" at the same time.
+If a player wipes out (hits the ground while doing a trick or runs into a wall at fast speed), play "hurt" voice clip, with the bike in ragdoll animation and "sound_collision" at the same time.
+Respawn the player after 4 seconds of wiping out or getting eaten by a plant.
+If the plant is near the player, switch to the animation where it tries to eat the player, if successful, have the player and the bike disappear, then when it burps, play "sound_burp". After the animation, cut to the player respawning away from the plant.
+Change the number depending on what the play is current in, if the player is in 2nd, have the number on the bottom left become "2"
+Have "Final Lap" slide to the right and hold it to the center for 3 seconds, then slide right off the screen.
+If a player finishes, switch to spectating view. Leave it there, until the last player finishes the last lap.
+If all players finishes 5 laps, cue "FINISH".
+The MPH meter, and Timer needs to be coded.
+Add 1 lap each time, player goes across the finish line.
+If a player collects the 100/250/500 points icon, play "sound_motocross_100collect", "sound_motocross_250collect" and "sound_motocross_500collect".
+The 100/250/500 points icon, awards players the exact point total if touched.
+Play "music_archery_rollerblades_motocross_theme" throughout the minigame, or "music_archery_rollerblades_motocross_theme_night" if it's played at night.
+Whenever a Speed or Shield icon is touched, play "sound_powerup".
+If a player crosses the finish line in 1st, Play their "Win" voice clip, along with the "Motocross - Waves/Wins" animation.
+If a player crosses the finish line in 2nd or worse, Play their "Lose" voice clip.
+Tricks can on be done while in air. If a player hits a key to do a trick, play animation of the trick (Up = No Handed, Left = Superman, Right = Superman Seatgrab, Down = No Footer), if a player moves the analog stick up, then holding down while in air, the character will perform a backflip, if a player moves the analog stick left/right, then hold right/left while in air, the character will perform a barrel roll.
+Tricks are worth 250 points, while doing backflips are worth the same, but 500 for each additional flip.
+If a player collects a points icon or lands a trick, have the score from the top off the screen slide down to the top of the screen, leave it there for 2 seconds, than slide back up, if a player does both a trick and collects a point icon, have the score number increase.
+Points will not be awarded if a player bails.
+
+==Rollerblades==
+
+Intro: Fade in to the camera showing four players at the goal mark.
+Play "sound_rollerblade_skate" when moving.
+If the player is holding a button to crouch before jumping, play "sound_rollerblade_rolldown".
+If the player jumps, play "sound_rollerblade_land".
+If a player hits another players, play their "hit" voice clips, or "sound_motocross_femaleow" in Shadowbolts's case.
+If a player hits something (besides another player), play "hit" voice clip, with an animation of them falling and getting up ("Rollerblade - Hit Back", then "Rollerblade - Gets Up from Back" if hit by the high hurdle, and "Rollerblade - Hit Front", then "Rollerblade - Gets Up from Back" if hit by the low hurdle), and "sound_collision" at the same time. Don't have the player control the character until these animations are finished.
+Change the number depending on what the play is current in, if the player is in 2nd, have the number on the bottom left become "2"
+Have "Final Lap" slide to the right and hold it to the center for 3 seconds, then slide right off the screen.
+If a player finishes, switch to spectating view. Leave it there, until the last player finishes the last lap.
+If all players finishes 5 laps, cue "FINISH".
+The MPH meter, and Timer needs to be coded.
+Add 1 lap each time, player goes across the finish line.
+Play "music_archery_rollerblades_motocross_theme" throughout the minigame, or "music_archery_rollerblades_motocross_theme_night" if it's played at night.
+Whenever a Speed or Shield icon is touched, play "sound_powerup".
+If a player crosses the finish line in 1st, Play their "Win" voice clip, along with the "Rollerblade - Waves/Wins" animation.
+If a player crosses the finish line in 2nd or worse, Play their "Lose" voice clip.
+
+==Memory Game==
+
+If both pairs are different, play "sound_memory_bad_pair"
+Every time a card is clicked on or selected, play "sound_memory_flip"
+If both pairs are the same, play "sound_memroy_good_pair"
+Intro: Fade in, have the cards slide in 5 x 3 (except for the middle middle row), with "sound_memory_shuffle" played first, then "sound_memory_slide".
+Stop the timer from a player who got all good pairs.
+If all players gets all good pairs, cue "FINISH".
+The images for the cards are randomized.
+For each good pair, animate to have the good pairs, together, then zoom in slightly, and disappear with a Special FX (Magic.png) with "sound_memory_match" playing.
+The background pattern for the minigames needs to move up left in a loop.
+The player who selects the minigame chooses the category first.
+
+==Cosmic Battle==
+
+Play "music_cosmicbattle_minigame" throughtout the minigame.
+If an enemy's ship is hit, play "sound_arcade_hit".
+If a player is hit or crashes into another ship, play "sound_arcade_playerhit".
+If a player gets hit or crashes into another ship while having 1 heart left, play "sound_arcade_playerexplode".
+If there's one player left standing, or if both players hearts are zero, cue "FINISH"..
+Every time a player presses a button to fire, play "sound_arcade_zap".
+If the player leaves the screen, have the pieces appear on the opposite of the screen, like how it was first played with of Asteroids.
+
+==Match the Ingredients==
+
+The ingredients appears randomly between 5x3.
+Whenever a food material appears, play "sound_pop".
+When a new piece of ingredients appear on the white box, play "sound_poof".
+Getting all of the correct food materials as placed on the white box awards the player 1 point each.
+When getting all of the correct food materials, play "sound_success".
+When clicking on a correct food material, play "sound_response".
+When clicking on a incorrect food material, play "sound_wrong".
+Zoom in the food and keep it there for 2 seconds, then zoom out in order for another food material to appear in another place.
+If time runs out, cue "FINISH".
+
+==Dance Off==
+
+If the minigame is played in online, the order of the characters is left to right (Player 1 to Player 4).
+the order of the characters from left to right in solo mode's dance mode. (Rainbow Dash, Rarity, Sunset Shimmer, Twilight Sparkle, Applejack, Pinkie Pie, Fluttershy)
+the order of the characters from left to right in solo mode's rainbooms mode. (Fluttershy, Applejack, Sunset Shimmer, Pinkie Pie (always in the back, due to her being a drummer), Twilight Sparkle, Rainbow Dash, Rarity)
+Play the song that the player selects.
+If the player finishes a song without any misses in solo mode, play "sound_jukebox_perfect".
+If the player finishes a song with the meter between %50-%99 in solo mode, play "sound_jukebox_clear".
+If the player finishes a song with the meter between %0-%49 in solo mode, play "sound_jukebox_fail".
+The keys for the minigame is "Up, Down, Left and Right".
+If the player presses the key on the exact or close movement of the background, it's "Perfect", if it's hit a little early, it's "Great", but if it's off, then it's "Too Early" or "Too Late", while not pressing a key at all and letting it slide out of the screen is consider a miss. (only connected through the lines).
+Slide the required keys to the left.
+Each song has different timings for the keys.
+The Audience meter is only in solo mode, start at 50, then decrease it depending on each misses, or too early/late, and increase it on each Great/Perfect, depending on what song.
+Have different camera angles throughout each different song, this was like that in Guitar Hero, and Magic Princess.
+Do not show multiplayer score in solo mode.
+Only show the solo results in solo mode.
+Play "sound_crowd" throughout the minigame, except when the minigame results comes in.
+For each 20 combo, play "sound_crowd_good".
+Instead of the normal "Loading" screen, use the Dance Off "Loading" Screen (dance_loading_english.png) when starting or restarting the minigame.
+
+==Don't pop the balloon!==
+
+Intro: Fade in to have Player 1, Player 2 and Player 3 stands near the balloon, while Player 4 stands away from the balloon.
+Each player can only inflate the balloon up to three times.
+The amount of inflates the balloon can pop is between 17 and 29 pumps.
+Every time the player presses a key to inflate, play "sound_balloon_pump", then "sound_balloon_inflate" (The first three plays in order depending on the amount of pumps the player takes, instead of the sound file choosing a random number) where the balloon grows slightly.
+If the balloon pops, play "sound_balloon_pop".
+Have the three players fly out (in their "Knocked Back in Air" Animation) of the screen when the balloon pops (due to them being close), with their "falling" voice clips being played, and "shock" (only in Fluttershy, Rainbow Dash and Rarity's case).
+When the characters leave the screen with their falling and shock voice clips playing, add an echo filter to the voice clips.
+After the player finishes, have the player near the pump walk away from the balloon is the same position as the player who walks near the balloon at last in line, the player who stands near the balloon at last to second in line, and the player who is second in line, to the pump.
+Have the animation of the character touching the pump, and when a player hits a key to pump, start the character pumping animation.
+Have Confetti (confettis_Atlas.png, confetti swirl.png, and Confetti.png) fly and fall towards the winning player after the balloon pops.
+
+==Grab the Coins!==
+
+Coins fall in random positions.
+Players get 1 coin each, while a gem gives the player 5 coins.
+Every time a coin is touched, play "sound_coin_pickup".
+Every time a gem is touched, play "sound_gem_pickup".
+Coins stay on the ground for 10 seconds, flash when it stays at the 7 second mark. and disappear at the 10 second mark.
+Gems stay on the ground for 5 seconds, flash when it stays at the 2 second mark. and disappear at the 5 second mark.
+If time runs out, cue "FINISH".
+Disable the attacks in this minigame.
+
+==Battle Royale== (More information can be found in "Power Ups.txt")
+
+Play "music_battle" throughout the minigame.
+All players start with 100 HP and 0 Magic. (HP Image is 100, and decrease for each HP decrease)
+When Magic is maxed out, play "sound_magic_ready" (Image is 0, and increase for each second, except when magic is being used).
+When Magic is being used, play animation (Power-Up).
+If a player is eliminated, switch to spectating view. Leave it there, until the last player remains.
+Use special effects for each power up use. (except for Tougher Offense, Tougher Defense, Super Strength) (Glowing Magic on Twilight Sparkle's hand for Telekinesis (twilight_power.png) with Sparkles (telekinesis_sparkles.png), Rainbow behind the character for Rainbow Dash's Super Speed and all character's Invincibility (rainbow_pixel.png and rainbow_speed.png), A Crystal Shield near Rarity for Shield Power, glowing blade on Swords and fade in Girl's long hair, wings and pony ears for Pony Up!.)
+All players get 1 magic point per 2 seconds (except when activating it or being eliminated).
+If Rarity's Shield is hit, play "sound_magic_reflect", with special effect from the shield.
+Whenever Rainbow Dash runs with Super Speed triggered, fade in when use, and fade out when not use.
+After 2 minutes of using Pony Up!, play "sound_ponyup_wornout", and fade out the extra hair and pony ears at the same time.
+Do not have the character punch while using Swords.
+After 5 minutes has passed while using sword, have to sword's blade changed from glowing blade to electricity blade, the sword will disappear when striking it once.
+If Twilight Sparkle uses her Telekinesis power up, play "sound_telekinesis" with her animation "Telekinesis" playing, then "sound_telekinesis_loop" if the player holds in the magic longer, Don't have the player move the character until the player releases the button to stop the magic, or if the magic bar is at zero.
+Whenever a magic ability wears off play "sound_longmagic_effect".
+If the sword's blade is electricity, play "sound_electricity" (with "electricity_texture.png" flashing on the blade) until a player attacks.
+If a character gets hit by sword's electricity blade, play "sound_shock" and character's "hurt" voice clip, or "shock" in Fluttershy, Rainbow Dash and Rarity's case, with special effect of the character getting electrocuted and their "shock" animation playing Don't have the player control the character until the animation is finished..
+If the sword with electricity strikes the ground, object or wall, play "sound_thunder_attack" with a special effect of the electricity that the player strikes.
+Whenever a player activates the "Pony Up" magic ability, play "sound_ponyuptransform" and fade in the pony ears, wings and extra hair of the character.
+Whenever a player activates the sword magic ability, play "sound_equipsword" and special effect to have the sword appear on player's hand.
+Whenever a player attacks with sword, play "sound_attack_sword".
+If the sword strikes a wall, play "sound_hit_sword".
+If the Magic Button on the top right is clicked on, slide The Magic Button and arrows from the bottom off the screen into the screen up. Slide it down once the magic ability is selected, or if it clicked anywhere except for the arrows and button.
+The Order of Magic Abilitys when changing it in solo (Tougher Offense, Tougher Defense, Telekinesis, Shield Power, Super Speed, Super Strength, Sugar Explosion, Pony Up!, Sword, Invincibility)
+Zoom Up and Zoom Down are buttons.
+If the zoom up button is selected, play "sound_zoom_up"
+If the zoom down button is selected, play "sound_zoom_down"
+Remove NPC from this minigame.
+Whenever the player holds the jump while in Pony Up form, play "sound_wing_flap", with the wings animation playing, don't play "fall" voice clip due to their wings slowing their fall.
+If Pinkie Pie's Sugar Explosion (sprinkles) hits the player, wall or ground, play "sound_explosion" with a special effect of the explosion (explosion_texture.png).
+If a player jumps while Invincible, have the character flip.
+If the player runs out of HP, have a special effect of stars and circles while the character's "hurt" voice clip plays, and "Knocked Forward in Air" and "Knocked Back in Air", then once the player hits the ground, play "Lands on Front" and "Lands on Back", then after the animation, fade out the eliminated player. Also, have the player move a few inches while the "Knocked Forward in Air" and "Knocked Back in Air" is playing. Don't have the player control the character.
+Have the character's sword swings match like player's analog stick when hitting a key to attack depending on what duration the analog stick is pointing at (excluding "up"), if the player hits a key to attack while the analog stick is pointing right, the character swings her sword to the right doing a Horizontal Swing.
+If a player is Invincible (magic ability), play "music_powerup", once the Invincible (magic ability) wears off, resume "music_battle".
+The following amount of health taken away depends on the attacks: (Punch Attacks = 10, 5 if increase defense is activated, 15 if opponent's increase attack is activated, Spin Attacks/Sword Attacks/Sprinkle Explosion = 20, 10 if increase defense is activated, 40 if opponent's increase attack is activated, Fall Damage/Electric Sword Attack = 50, 25 if increase defense is activated, 100 if opponent's increase attack is activated (Electric Sword Attack only)
+Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
+Whenever a character attacks another character or an object by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
+Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6677090fa74c46846b3a684734d80e53
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Celestia
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d285f792d3a926f44ac5ee207dc7110c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
