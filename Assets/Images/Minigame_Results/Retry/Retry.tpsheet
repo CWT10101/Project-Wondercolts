@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:fdb0b0bd627756db26ac8497c73f6926:34fe9980fd35af5e01d9a148fcca3fc4:b83021dad2ab1b0058b3317a39602f39$
+#
+:format=40300
+:texture=Retry.png
+:size=512x512
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Retry_1;1;317;171;96; 0.5;0.5; 0;0;0;0
+Retry_2;174;415;171;96; 0.5;0.5; 0;0;0;0
+Retry_3;174;318;169;95; 0.5;0.49473684210526314; 0;0;0;0
+Retry_4;347;419;162;92; 0.49691358024691357;0.48913043478260865; 0;0;0;0
+Retry_5;347;330;152;87; 0.4967105263157895;0.48275862068965514; 0;0;0;0
+Retry_6;1;236;140;79; 0.49642857142857144;0.4683544303797469; 0;0;0;0
+Retry_7;1;415;171;96; 0.5;0.5; 0;0;0;0

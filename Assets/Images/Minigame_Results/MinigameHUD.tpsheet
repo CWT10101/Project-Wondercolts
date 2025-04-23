@@ -1,0 +1,30 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:6cd976b0c20bcc6dfe9b2d74e06088e6:f4fdc48c2222b818c12352d42aa1e441:fa4e2351efb5145369e660995386815d$
+#
+:format=40300
+:texture=MinigameHUD.png
+:size=1024x512
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+hud_box;550;351;173;50; 0.5;0.5; 0;0;0;0
+name_selection_applejack;724;458;261;53; 0.5325670498084292;0.49056603773584906; 0;0;0;0
+name_selection_fluttershy;1;2;285;60; 0.5157894736842106;0.4666666666666667; 0;0;0;0
+name_selection_indigo_zap;434;459;288;52; 0.4965277777777778;0.5384615384615384; 0;0;0;0
+name_selection_lemon_zest;1;64;294;52; 0.5;0.3846153846153846; 0;0;0;0
+name_selection_pinkie_pie;434;403;255;54; 0.5019607843137255;0.42592592592592593; 0;0;0;0
+name_selection_rainbow_dash;1;290;355;53; 0.5014084507042254;0.37735849056603776; 0;0;0;0
+name_selection_rarity;378;339;170;60; 0.5;0.4666666666666667; 0;0;0;0
+name_selection_sci-twi;691;403;193;53; 0.5025906735751295;0.37735849056603776; 0;0;0;0
+name_selection_sour_sweet;1;118;293;53; 0.5017064846416383;0.37735849056603776; 0;0;0;0
+name_selection_sugar_coat;1;173;293;55; 0.49829351535836175;0.5272727272727273; 0;0;0;0
+name_selection_sunny_flare;1;230;315;58; 0.5015873015873016;0.48275862068965514; 0;0;0;0
+name_selection_sunset_shimmer;1;401;416;52; 0.5;0.3846153846153846; 0;0;0;0
+name_selection_sweetie_drips;1;345;375;54; 0.49333333333333335;0.42592592592592593; 0;0;0;0
+name_selection_twilight_sparkle;1;455;431;56; 0.5011600928074246;0.4107142857142857; 0;0;0;0
