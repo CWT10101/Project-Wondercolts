@@ -4,6 +4,9 @@
 
 This game is currently in the works, looking for help (such as coding and animating). Source Code from different fanmade games is included for anyone who's new or knows little on coding. (Found in "Scripts (Example)")
 
+Please know that this only includes Templates, Images and Documents (due to storage limitations), If you need the files with models and audio (which will be needed later on), the link is below here.
+"https://archive.org/details/PWC-Development-Assets"
+
 <details>
   <summary><h2>Opening in Unity Editor</h2></summary>
 
