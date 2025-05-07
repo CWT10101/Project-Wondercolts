@@ -51,7 +51,7 @@ Play "music_minigame" for every minigame (except for Battle Royale, Passcode Bea
 If the character touches the white spot on the ground (Location or Minigame), have the text slide down, and if the character leaves, have the text slide up out of the screen.
 In Online Mode, have the character's username appear above the character's head (except for the character that the player is controlling)
 
-==Controlling Characters== (More information can be found in "Animations.txt")
+==Controlling Characters==
 
 If the character is in idle for 30 seconds, play different idle animations, once finished, revert back to normal idle.
 If a character jumps, Play "sound_jump" with the character's animation in "Jump Anticipation"
