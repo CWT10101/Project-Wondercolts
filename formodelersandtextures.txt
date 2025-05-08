@@ -1,4 +1,4 @@
-Either download the map files (Maps_VMF.zip) by editing using hammer, or start from scratch (with assets and textures included in the development assets, which is required to work with, if you haven't downloaded them, the link is located below).
+Either download the map files (Maps_VMF.zip) by editing using hammer, or start from scratch (with assets and textures included in the development assets, which is required to work with, if you haven't downloaded them, find them at "Place These in Assets.7z".
 If you have made the changes as mentioned below, let me know, sent me the files and I'll update it, and test it out for revisions.
 
 ==Steps==
