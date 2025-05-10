@@ -85,7 +85,6 @@ If the phone icon is selected, have the Chat Panel slide to the right and have i
 If another player sents a message, have the notification appear below the phone with the sound "sound_message" playing.
 If a player joins the room, have the system sent ""Username" has joined the lobby." with "sound_follow" playing.
 If a player leaves the room, have the system sent ""Username" has left the lobby." with "sound_follow" playing.
-Every time a player sends a message, play "sound_response".
 If the game is being played in solo, don't show the phone.
 If Camera is chosen, go to Camera Mode.
 If the Hanger is chosen, go to Wardrobe Selection.
