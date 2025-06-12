@@ -1,6 +1,6 @@
 # Project-Wondercolts
 
-![image]([https://ia600207.us.archive.org/5/items/PWC-Development-Assets/PWC_logo.png)
+![image](https://ia600207.us.archive.org/5/items/PWC-Development-Assets/PWC_logo.png)
 ## Progress
 
 This game is currently in the works, looking for help (such as coding and animating). Source Code from different fanmade games is included for anyone who's new or knows little on coding. (Found in "Scripts (Example)")
