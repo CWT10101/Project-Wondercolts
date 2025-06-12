@@ -1,7 +1,6 @@
 # Project-Wondercolts
 
-![image](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/54111107-669e-4939-89ef-2b5a19dbf440/djr2uwn-496e605f-3f9c-44b1-859c-9fd164d1d0ff.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU0MTExMTA3LTY2OWUtNDkzOS04OWVmLTJiNWExOWRiZjQ0MFwvZGpyMnV3bi00OTZlNjA1Zi0zZjljLTQ0YjEtODU5Yy05ZmQxNjRkMWQwZmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zrqrruMu3jMFzYoESadimPpke3PI8u8Lf2-hfJ8_tFw)
-
+![image]([https://ia600207.us.archive.org/5/items/PWC-Development-Assets/PWC_logo.png)
 ## Progress
 
 This game is currently in the works, looking for help (such as coding and animating). Source Code from different fanmade games is included for anyone who's new or knows little on coding. (Found in "Scripts (Example)")
