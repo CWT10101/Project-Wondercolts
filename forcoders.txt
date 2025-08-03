@@ -153,7 +153,7 @@ If Help is selected, go to Help Instructions, then Help Controls if the View Con
 Two/FourPlayerMiniGameSolo only shows up if the minigame is being played in solo while Two/FourPlayerMiniGameOnline only shows up if the minigame is being played in Online.
 Only show the Stage Selection in Dancing Minigame.
 Do not show the Stage Selection with arrows if the player joins the room.
-The Left and Right arrows are buttons and has animation..
+The Left and Right arrows are buttons and has animation.
 If the left button is selected, play "sound_menu_previous".
 If the right button is selected, play "sound_menu_next".
 In Solo, the arrows for CPU 2, 3 and 4 can change characters.
@@ -297,7 +297,7 @@ If a player hits another players, play their "hit" voice clips, or "sound_motocr
 If a player wipes out (hits the ground while doing a trick or runs into a wall at fast speed), play "hurt" voice clip, with the bike in ragdoll animation and "sound_collision" at the same time.
 Respawn the player after 4 seconds of wiping out or getting eaten by a plant.
 If the plant is near the player, switch to the animation where it tries to eat the player, if successful, have the player and the bike disappear, then when it burps, play "sound_burp". After the animation, cut to the player respawning away from the plant.
-Change the number depending on what the play is current in, if the player is in 2nd, have the number on the bottom left become "2"
+Change the number depending on what the play is current in, if the player is in 2nd, have the number on the bottom left become "2".
 Have "Final Lap" slide to the right and hold it to the center for 3 seconds, then slide right off the screen.
 If a player finishes, switch to spectating view. Leave it there, until the last player finishes the last lap.
 If all players finishes 5 laps, cue "FINISH".
@@ -352,7 +352,7 @@ Play "music_cosmicbattle_minigame" throughtout the minigame.
 If an enemy's ship is hit, play "sound_arcade_hit".
 If a player is hit or crashes into another ship, play "sound_arcade_playerhit".
 If a player gets hit or crashes into another ship while having 1 heart left, play "sound_arcade_playerexplode".
-If there's one player left standing, or if both players hearts are zero, cue "FINISH"..
+If there's one player left standing, or if both players hearts are zero, cue "FINISH".
 Every time a player presses a button to fire, play "sound_arcade_zap".
 If the player leaves the screen, have the pieces appear on the opposite of the screen, like how it was first played with of Asteroids.
 
@@ -426,7 +426,7 @@ If Rarity's Shield is hit, play "sound_magic_reflect", with special effect from 
 Whenever Rainbow Dash runs with Super Speed triggered, fade in when use, and fade out when not use.
 After 2 minutes of using Pony Up!, play "sound_ponyup_wornout", and fade out the extra hair and pony ears at the same time.
 Do not have the character punch while using Swords.
-After 5 minutes has passed while using sword, have to sword's blade changed from glowing blade to electricity blade, the sword will disappear when striking it once.
+After 5 minutes has passed while using sword, have electricity appear on the sword's blade, the sword will disappear when striking it once.
 If Twilight Sparkle uses her Telekinesis power up, play "sound_telekinesis" with her animation "Telekinesis" playing, then "sound_telekinesis_loop" if the player holds in the magic longer, Don't have the player move the character until the player releases the button to stop the magic, or if the magic bar is at zero.
 Whenever a magic ability wears off play "sound_longmagic_effect".
 If the sword's blade is electricity, play "sound_electricity" (with "electricity_texture.png" flashing on the blade) until a player attacks.
@@ -452,3 +452,4 @@ The following amount of health taken away depends on the attacks: (Punch Attacks
 Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
 Whenever a character attacks another character or an object by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
 Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.
+
