@@ -2,7 +2,7 @@
 - If you have any questions, let me know!
 - Some image files have "tpsheet", while some images are in folders as numbers that might have to be bundled in one (like many other games when they store the textures/images in one).
 - If you have coded them, let me know, sent me the scripts that were added/changed and I'll update it, and test it out for revisions.
-- Some files from the Development assets is required to work with, if you haven't downloaded them, find them at "Place These in Assets.7z".
+- Some files from the Development assets is required to work with, if you haven't downloaded them, go to "https://archive.org/download/PWC-Development-Assets/Development%20Assets/" and download "Place These in Assets.7z".
 
 ==Main Menu==
 
@@ -452,4 +452,5 @@ The following amount of health taken away depends on the attacks: (Punch Attacks
 Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
 Whenever a character attacks another character or an object by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
 Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.
+
 
