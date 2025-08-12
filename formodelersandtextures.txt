@@ -1,9 +1,9 @@
-Either download the map files (Maps_VMF.zip) by editing using hammer, or start from scratch (with assets and textures included in the development assets, which is required to work with, if you haven't downloaded them, find them at "Place These in Assets.7z".
+Either download the map files "Maps_VMF.zip" found in the Development Assets by editing them using hammer, or start from scratch (with assets and textures included in the development assets, which is required to work with, if you haven't downloaded them, go to "https://archive.org/download/PWC-Development-Assets/Development%20Assets/" and download "Place These in Assets.7z".
 If you have made the changes as mentioned below, let me know, sent me the files and I'll update it, and test it out for revisions.
 
 ==Steps==
 
-1. Download the "Maps_VMF.zip file.
+1. Download the "Maps_VMF.zip file. (Link found in Read Me)
 2. Copy the files inside the "Maps_VMF.zip" (don't extract), into a different folder.
 3. Open Hammer.
 4. Open the forementioned maps that were decompiled, browse through the map to make sure there's no problems, "no "ERROR" objects showing up and all walls removed to show the black sky, (which is needed in order for the skybox to show up)
@@ -16,9 +16,11 @@ If you have made the changes as mentioned below, let me know, sent me the files 
 - There needs to be rails on the stairs in the library.
 - Create and add the Copier Printer Scanner Machine into the library.
 - Create and replace the Monitor and Keyboard Models based on the series, due to the ones not fitting it's art style.
+- There needs to be two Dovetail flags on the ceiling in the library.
 - Add more trees and bushes to avoid seeing mostly empty space.
 - Remove all three pictures of Sunset Shimmer found in Principal Celestia's office.
 - (Optional) Extend the map a little more with more roads, ground and houses to avoid seeing mostly empty space.
+- (Optional) Create a seperate (but bigger) Library room, (keep the library room that's connected into the stage before entering) since there's more bookshelves in the back, and the stair height has to be 13 instead of 34.
 
 ==Mainstreet A==
 
@@ -62,3 +64,4 @@ If you have made the changes as mentioned below, let me know, sent me the files 
 - Pinkie Pie's waitress hair model doesn't have a black hairband on her hair.
 - The colour on Sunset Shimmer's pajama shirt's neckline needs to be red, not dark purple, and the neckline needs to be a little bit more bigger.
 - Create two seperate hair models for the mane 7, one with wet hair when jumping into the water and singed hair when getting electrocuted.
+
