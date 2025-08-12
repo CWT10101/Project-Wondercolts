@@ -1,7 +1,7 @@
-- The voice clips are all found in the development assets, if you haven't downloaded them, find them at "Place These in Assets.7z".
+- The voice clips are all found in the development assets, if you haven't downloaded them, go to "https://archive.org/download/PWC-Development-Assets/Development%20Assets/" and download "Place These in Assets.7z".
 - If you have made the changes as mentioned below, let me know, sent me the files and I'll update it.
 
-==Following audio clips has SFX, or background ambients==
+==Following audio clips has SFX, or background ambients that needs to be removed==
 
 twilight_sparkle_carry1 (*grunts*; Dragonshy/Swarm of the Century)
 twilight_sparkle_carry2
@@ -32,7 +32,6 @@ applejack_win2 (Yee-haw!; Winter Wrap Up)
 applejack_win3 (Yee-haw!)
 applejack_win5 (Yee-haw!; Fall Weather Friends)
 fluttershy_cold2 ("Shivers"; Dragonshy)
-fluttershy_hit2 ("Choo!"; Green Isn't Your Color/Putting Your Hoof Down)
 fluttershy_hit3 ("Squeals"; Dragonshy)
 fluttershy_hit5/hurt3 (Whoa!; Dragonshy)
 fluttershy_hurt2 ("Screams"; Castle Mane-ia/Trade Ya!)
@@ -46,7 +45,6 @@ fluttershy_lose2 ("Cries"; Griffon the Brush off/Hurricane Fluttershy)
 fluttershy_lose4 (How dare you!; Dragonshy)
 fluttershy_losebalance (Aah!; Opening Night)
 fluttershy_shock1 ("Shrieks"; Stare Master)
-fluttershy_sneezes ("Sneezes"; A Health of Information)
 fluttershy_win1 (WOO!; Sonic Rainboom)
 rainbow_dash_falling1 ("Yuaaahh!"; Swarm of the Century/A Dog and Pony Show/May the Best Pet Win!)
 rainbow_dash_falling2 (Look out Below!; Suited for Success)
@@ -92,3 +90,4 @@ rarity_hurt3 ("Screams"; Best Trends Forever)
 rarity_selected3 (You look smashing.; Friendship is Magic Part 2)
 rarity_shock ("Screaming"; Best Trends Forever)
 rarity_win2 (YES!)
+
