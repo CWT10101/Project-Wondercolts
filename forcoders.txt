@@ -230,7 +230,7 @@ The following Interactive Circles has to be placed:
 ==Sunset's Apartment==
 
 CUTSCENE: If the player touches the entrance door, quickly fade out, after the character opens the door and enters, then fade in to have the character teleport to Sunset's room.
-"ambiance_mainstreet" is played when outside.
+"ambience_mainstreet" is played when outside.
 The following Interactive Circles has to be placed:
  - Cosmic Battle (near Sunset Shimmer's Couch and TV)
  - Grab the Coins! (Near Sunset Shimmer's Computer Desk)
@@ -452,5 +452,6 @@ The following amount of health taken away depends on the attacks: (Punch Attacks
 Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
 Whenever a character attacks another character or an object by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
 Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.
+
 
 
