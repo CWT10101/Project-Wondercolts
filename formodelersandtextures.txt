@@ -1,5 +1,6 @@
 Either download the map files "Maps_VMF.zip" found in the Development Assets by editing them using hammer, or start from scratch (with assets and textures included in the development assets, which is required to work with, if you haven't downloaded them, go to "https://archive.org/download/PWC-Development-Assets/Development%20Assets/" and download "Place These in Assets.7z".
 If you have made the changes as mentioned below, let me know, sent me the files and I'll update it, and test it out for revisions.
+Blender, Maya or a similar software is required to create the models as their listed below.
 
 ==Steps==
 
@@ -16,7 +17,7 @@ If you have made the changes as mentioned below, let me know, sent me the files 
 - There needs to be rails on the stairs in the library.
 - Create and add the Copier Printer Scanner Machine into the library.
 - Create and replace the Monitor and Keyboard Models based on the series, due to the ones not fitting it's art style.
-- There needs to be two Dovetail flags on the ceiling in the library.
+- There needs to be three Dovetail flags on the ceiling in the library.
 - Add more trees and bushes to avoid seeing mostly empty space.
 - Remove all three pictures of Sunset Shimmer found in Principal Celestia's office.
 - (Optional) Extend the map a little more with more roads, ground and houses to avoid seeing mostly empty space.
@@ -64,4 +65,5 @@ If you have made the changes as mentioned below, let me know, sent me the files 
 - Pinkie Pie's waitress hair model doesn't have a black hairband on her hair.
 - The colour on Sunset Shimmer's pajama shirt's neckline needs to be red, not dark purple, and the neckline needs to be a little bit more bigger.
 - Create two seperate hair models for the mane 7, one with wet hair when jumping into the water and singed hair when getting electrocuted.
+
 
