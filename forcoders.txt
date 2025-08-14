@@ -367,6 +367,23 @@ When clicking on a correct food material, play "sound_response".
 When clicking on a incorrect food material, play "sound_wrong".
 Zoom in the food and keep it there for 2 seconds, then zoom out in order for another food material to appear in another place.
 If time runs out, cue "FINISH".
+The following food and ingredients has to be applied as corrected materials (Materials from Left to Right, has to be in top and bottom according to the "Match the Ingredients" Template):
+- Burger (Vegetables + Patty + Ketchup + Burger Bun)
+- Eclair (Cream Filling + Butter + Empty Eclair)
+- Fries (Salt + Potatoes)
+- Hot Dog (Ketchup + Weiner + Hot Dog Bun)
+- Popcorn (Kernel + Salt)
+- Vanilla Cake (Flour + Vanilla Icing + Butter)
+- Wondercolt Cookies (Chocolate Chips + Butter)
+- Chips Mix (Cheese + Pretzels + Triangle Cornships)
+- Chocolate Milk (Milk + Chocolate)
+- Cupcake (Chocolate + Cherries + Cream Filling + Muffin)
+- Ice Cream (Empty Cone + Ice Cream Scoop)
+- Milkshake (Milk + Fruits + Ice Cream Scoop)
+- Pizza (Cheese + Pepperoni + Pizza Sauce)
+- Sandwich (Bread + Peanut Butter + Jam)
+- Tacos (Cheese + Vegetables + Taco Shells)
+- 
 
 ==Dance Off==
 
@@ -452,6 +469,7 @@ The following amount of health taken away depends on the attacks: (Punch Attacks
 Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
 Whenever a character attacks another character or an object by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
 Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.
+
 
 
 
