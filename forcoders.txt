@@ -62,7 +62,7 @@ If a player moves all the way, have the character go to "Run Cycle" animation.
 If a character is walking/running, play "sound_footsteps" depending on what type the character is moving from the ground (grass, floor, mud, snow, etc.)
 Character's animation "Jump Fall Idle" only plays after "Jump Anticipation" or if a character walks off the ledge.
 Character's animation "Jump Landing" only plays if a character lands on the ground after "Jump Anticipation" fewer then 2 seconds. Don't play if the player uses the analog stick to continue moving.
-If the character's "Jump Fall Idle" lasts longer then 2 seconds while falling, play "falling" voice clip, then if the player lands on ground, play "Awkward Landing" from the character, with "sound_awkwardlanding" playing. Don't have the player control the character until the animation is finished.
+If the character's "Jump Fall Idle" lasts longer than 2 seconds while falling, play "falling" voice clip, then if the player lands on ground, play "Awkward Landing" from the character, with "sound_awkwardlanding" playing. Don't have the player control the character until the animation is finished.
 If the player rotates the analog stick then jumps or while the player is in "Jump Fall Idle" animation, switch to "Spin Attack" animation with the character's spinning and their falls slowing down.
 If the character touches the wall, go to "Walk Cycle" animation, then stop the player moving until the player turns around to move with more space.
 If the character stands near a ledge, play "lose_balance" voice clip with the animation "Loses Balance" playing. Although the timing of the voice clip needs to be delayed to just 1 second.
@@ -107,9 +107,9 @@ The countdown has animation.
 play "sound_countdown" when the countdown appears. (play when 3, 2, and 1 appears.)
 Have "START" appear after 1 disappears with a zoom in with "sound_countdown_start" playing.
 Have "FINISH" zoom in to center, then zoom out of the screen after 2 seconds of being on the center while "sound_timeup" plays.
-If the timer hits "0:10", play "sound_clockticking" with the text flashing from white to red.
+If the timer hits "0:10", play "sound_clockticking" with the text flashing from white to red, and the clock animating.
 The Character's names, on the bottom of the timer and scores, are if the player is playing that character.
-After the "FINISH" disappears, have the camera zoom in the winning character, play win animation with "win" voice clip playing.
+After the "FINISH" disappears, have the camera zoom in the winning character, then play win animation with "win" voice clip playing.
 
 ==Minigame Results==
 
@@ -284,7 +284,7 @@ If the player pushes a button to jump while holding the ball without moving, pla
 If a player pushes a button to punch while jumping without holding the ball, play "Basketball - Punch while in air" animation, then proceed to play "Landing" animation. If the player touches the ball, play "Basketball - Holding Basketball in air", then if the character lands to the ground, play "Basketball - Landing holding the Basketball". Don't have the player control the character until these animations are done.
 If the player jumps near the basketball net while holding the ball, play "Basketball - Grabbing on Rim and letting go" animation, don't have the player control the character until the animation is done.
 If the player throws the ball, have the ball fly towards the net, if the player is close to the net, have the player automatically score, due to "Basketball - Grabbing on Rim and letting go" animation playing, have the chances decrease if the player throws the ball and is further from the net. (Have the ball hit the rim, or the backboard, and bounced to the ground, unless the player touches it.)
-If the ball leaves the field, cue "OUT OF BOUNDS"
+If the ball leaves the field, cue "OUT OF BOUNDS", then reset positions but with the player (who didn't throw the ball out of the field) in control of the ball.
 Each time the player scores or if the ball leaves the field, reset the character's position.
 
 ==Motocross==
@@ -310,7 +310,7 @@ Whenever a Speed or Shield icon is touched, play "sound_powerup".
 If a player crosses the finish line in 1st, Play their "Win" voice clip, along with the "Motocross - Waves/Wins" animation.
 If a player crosses the finish line in 2nd or worse, Play their "Lose" voice clip.
 Tricks can on be done while in air. If a player hits a key to do a trick, play animation of the trick (Up = No Handed, Left = Superman, Right = Superman Seatgrab, Down = No Footer), if a player moves the analog stick up, then holding down while in air, the character will perform a backflip, if a player moves the analog stick left/right, then hold right/left while in air, the character will perform a barrel roll.
-Tricks are worth 250 points, while doing backflips are worth the same, but 500 for each additional flip.
+Tricks are worth 50 points, while doing backflips/barrel rolls are worth the same, but 100 for each additional flip.
 If a player collects a points icon or lands a trick, have the score from the top off the screen slide down to the top of the screen, leave it there for 2 seconds, than slide back up, if a player does both a trick and collects a point icon, have the score number increase.
 Points will not be awarded if a player bails.
 
@@ -383,7 +383,6 @@ The following food and ingredients has to be applied as corrected materials (Mat
 - Pizza (Cheese + Pepperoni + Pizza Sauce)
 - Sandwich (Bread + Peanut Butter + Jam)
 - Tacos (Cheese + Vegetables + Taco Shells)
-- 
 
 ==Dance Off==
 
@@ -405,6 +404,9 @@ Only show the solo results in solo mode.
 Play "sound_crowd" throughout the minigame, except when the minigame results comes in.
 For each 20 combo, play "sound_crowd_good".
 Instead of the normal "Loading" screen, use the Dance Off "Loading" Screen (dance_loading_english.png) when starting or restarting the minigame.
+The Following Stages for the minigame needs to be in these specific areas and nowhere else:
+- Canterlot High School = "The Gym (Have the playable characters, Vinyl Scratch and their instruments on the stage)"
+- Main Street A = "The Road near Sweet Snacks Cafe"
 
 ==Don't pop the balloon!==
 
@@ -418,6 +420,7 @@ When the characters leave the screen with their falling and shock voice clips pl
 After the player finishes, have the player near the pump walk away from the balloon is the same position as the player who walks near the balloon at last in line, the player who stands near the balloon at last to second in line, and the player who is second in line, to the pump.
 Have the animation of the character touching the pump, and when a player hits a key to pump, start the character pumping animation.
 Have Confetti (confettis_Atlas.png, confetti swirl.png, and Confetti.png) fly and fall towards the winning player after the balloon pops.
+Have the area of this minigame done in the gym, inside Canterlot High.
 
 ==Grab the Coins!==
 
@@ -429,6 +432,10 @@ Coins stay on the ground for 10 seconds, flash when it stays at the 7 second mar
 Gems stay on the ground for 5 seconds, flash when it stays at the 2 second mark. and disappear at the 5 second mark.
 If time runs out, cue "FINISH".
 Disable the attacks in this minigame.
+The Following Stages for the minigame needs to be in these specific areas and nowhere else:
+- Canterlot High School = "Soccer Field"
+- Sunset's Apartment = "Her Room (except the Bathroom which stays closed)"
+- Main Street A = "The Road near Sugarcube Corner"
 
 ==Battle Royale== (More information can be found in "Power Ups.txt")
 
@@ -459,7 +466,7 @@ Zoom Up and Zoom Down are buttons.
 If the zoom up button is selected, play "sound_zoom_up"
 If the zoom down button is selected, play "sound_zoom_down"
 Remove NPC from this minigame.
-Whenever the player holds the jump while in Pony Up form, play "sound_wing_flap", with the wings animation playing, don't play "fall" voice clip due to their wings slowing their fall.
+Whenever the player holds the jump while in Pony Up form, play "sound_wing_flap", with the wings animation playing, don't play "falling" voice clip due to their wings slowing their fall.
 If Pinkie Pie's Sugar Explosion (sprinkles) hits the player, wall or ground, play "sound_explosion" with a special effect of the explosion (explosion_texture.png).
 If a player jumps while Invincible, have the character flip.
 If the player runs out of HP, have a special effect of stars and circles while the character's "hurt" voice clip plays, and "Knocked Forward in Air" and "Knocked Back in Air", then once the player hits the ground, play "Lands on Front" and "Lands on Back", then after the animation, fade out the eliminated player. Also, have the player move a few inches while the "Knocked Forward in Air" and "Knocked Back in Air" is playing. Don't have the player control the character.
@@ -469,7 +476,3 @@ The following amount of health taken away depends on the attacks: (Punch Attacks
 Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
 Whenever a character attacks another character or an object by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
 Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.
-
-
-
-
