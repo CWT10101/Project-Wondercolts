@@ -50,7 +50,7 @@ Blender, Maya or a similar software is required to create the models as their li
 - As for the characters, "blender" files are included, since I had to download and import them to blender (credits are in "details"), the only things that needs to be adjusted is the bones to the characters, I included both "BoneFix" files for better results, the first file "BoneFix.py" is the best option, although the only problem is the character's bones has to be connected perfectly, and can't look off, because when I did this, the right bone on the hip of the character looks way off, when I exported it to Unity, moving the right hip will have it lift to the left instead of straight, looking to see if someone can edit the BoneFix file to make the bones on the right hip look straight instead of being connected to the left.
 - "BoneFixSFM2.8.py" does connect the bones of both hips straight, but doesn't connect the bones to the head. (I strongly recommend editing and using the first option; especially because I want the playable character's hair to have movements; specifically when moving and falling.)
 
-==Models and other textures==
+==Character Models, Props and other textures==
 
 - Create textures for splashes.
 - Sci-Twi's glasses on her "Sci-Twi", "Shorts" and "Camping" outfits doesn't have temples included on her glasses.
@@ -65,5 +65,6 @@ Blender, Maya or a similar software is required to create the models as their li
 - Pinkie Pie's waitress hair model doesn't have a black hairband on her hair.
 - The colour on Sunset Shimmer's pajama shirt's neckline needs to be red, not dark purple, and the neckline needs to be a little bit more bigger.
 - Create two seperate hair models for the mane 7, one with wet hair when jumping into the water and singed hair when getting electrocuted.
+- The images in concept (found in the development assets) has a list that needs to be modeled.
 
 
