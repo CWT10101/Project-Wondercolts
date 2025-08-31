@@ -274,10 +274,9 @@ Don't show the meter if the player is not the kicker.
 ==1 on 1 Basketball== (Do not work on this until later, as the basketball model isn't created)
 
 If a player scores, show the scores. Have score on the left slide right, and the right slide left.
-If time runs out, cue "FINISH".
 The Hoop awards player 2/3 points each time. 
 The Player on the left has to score the right, while the player on the right has to score on the left.
-If a player has 21 points, cue "FINISH".
+If a player has 21 points or time run out, cue "FINISH".
 Each game starts off with Player 1 holding the ball.
 If the player has the ball, play "Basketball - Dribble while Standing" animation when not moving, and "Basketball - Dribble while Moving" if the player moves.
 If the player pushes a button to jump while holding the ball without moving, play "Basketball - Jumps and Throws", or "Basketball - Jumps while moving" if the player pushes a button to jump while moving, don't have the player move the character until the animation is done. Also, have the timing on the basketball toss away from the player when the player is in midair of a jump.
@@ -300,7 +299,7 @@ If the plant is near the player, switch to the animation where it tries to eat t
 Change the number depending on what the play is current in, if the player is in 2nd, have the number on the bottom left become "2".
 Have "Final Lap" slide to the right and hold it to the center for 3 seconds, then slide right off the screen.
 If a player finishes, switch to spectating view. Leave it there, until the last player finishes the last lap.
-If all players finishes 5 laps, cue "FINISH".
+If all players finishes 5 laps, or if 10 minutes has passed, cue "FINISH".
 The MPH meter, and Timer needs to be coded.
 Add 1 lap each time, player goes across the finish line.
 If a player collects the 100/250/500 points icon, play "sound_motocross_100collect", "sound_motocross_250collect" and "sound_motocross_500collect".
@@ -325,7 +324,7 @@ If a player hits something (besides another player), play "hit" voice clip, with
 Change the number depending on what the play is current in, if the player is in 2nd, have the number on the bottom left become "2"
 Have "Final Lap" slide to the right and hold it to the center for 3 seconds, then slide right off the screen.
 If a player finishes, switch to spectating view. Leave it there, until the last player finishes the last lap.
-If all players finishes 5 laps, cue "FINISH".
+If all players finishes 5 laps, or if 10 minutes has passed, cue "FINISH".
 The MPH meter, and Timer needs to be coded.
 Add 1 lap each time, player goes across the finish line.
 Play "music_archery_rollerblades_motocross_theme" throughout the minigame, or "music_archery_rollerblades_motocross_theme_night" if it's played at night.
@@ -411,12 +410,14 @@ The Following Stages for the minigame needs to be in these specific areas and no
 ==Don't pop the balloon!==
 
 Intro: Fade in to have Player 1, Player 2 and Player 3 stands near the balloon, while Player 4 stands away from the balloon.
-Each player can only inflate the balloon up to three times.
+Each player can only inflate the balloon up once.
+If time runs out, have the player automatically inflate the balloon depending on the arrow in the meter that lands on.
+Every time the player presses a key, have the arrow on the meter stop on what direction it lands on, (The player inflates once if it lands on purple, and eight if it lands on green)
 The amount of inflates the balloon can pop is between 17 and 29 pumps.
 Every time the player presses a key to inflate, play "sound_balloon_pump", then "sound_balloon_inflate" (The first three plays in order depending on the amount of pumps the player takes, instead of the sound file choosing a random number) where the balloon grows slightly.
 If the balloon pops, play "sound_balloon_pop".
 Have the three players fly out (in their "Knocked Back in Air" Animation) of the screen when the balloon pops (due to them being close), with their "falling" voice clips being played, and "shock" (only in Fluttershy, Rainbow Dash and Rarity's case).
-When the characters leave the screen with their falling and shock voice clips playing, add an echo filter to the voice clips.
+When the characters leave the screen with their falling and shock voice clips playing, add an reverb filter to the voice clips.
 After the player finishes, have the player near the pump walk away from the balloon is the same position as the player who walks near the balloon at last in line, the player who stands near the balloon at last to second in line, and the player who is second in line, to the pump.
 Have the animation of the character touching the pump, and when a player hits a key to pump, start the character pumping animation.
 Have Confetti (confettis_Atlas.png, confetti swirl.png, and Confetti.png) fly and fall towards the winning player after the balloon pops.
@@ -474,5 +475,6 @@ Have the character's sword swings match like player's analog stick when hitting 
 If a player is Invincible (magic ability), play "music_powerup", once the Invincible (magic ability) wears off, resume "music_battle".
 The following amount of health taken away depends on the attacks: (Punch Attacks = 10, 5 if increase defense is activated, 15 if opponent's increase attack is activated, Spin Attacks/Sword Attacks/Sprinkle Explosion = 20, 10 if increase defense is activated, 40 if opponent's increase attack is activated, Fall Damage/Electric Sword Attack = 50, 25 if increase defense is activated, 100 if opponent's increase attack is activated (Electric Sword Attack only)
 Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
-Whenever a character attacks another character or an object by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
+Whenever a character attacks another character or an object or wall by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
 Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.
+
