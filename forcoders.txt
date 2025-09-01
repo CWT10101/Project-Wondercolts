@@ -166,6 +166,8 @@ Each time a button (except for arrows) is selected, play "sound_menu_select".
 When selecting Play Created Tracks, go to Connecting with "sound_loading", playing.
 Keep "Connecting" on until the rooms and created tracks appear, otherwise play error box.
 If there's no rooms when entering "Join Room", go to NoRoomBox.
+Do not show "Erase Button" unless the player clicks on "Your Created Tracks" in "Play Created Tracks" menu.
+If a player selects the "Erase Button", go to DeleteCreatedTrackBox.
 
 ==Track Editor==
 
@@ -477,4 +479,3 @@ The following amount of health taken away depends on the attacks: (Punch Attacks
 Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
 Whenever a character attacks another character or an object or wall by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
 Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.
-
