@@ -228,6 +228,7 @@ The following Interactive Circles has to be placed:
  - Battle Royale (near the wall next to the vending machine)
  - Canterlot High (The road when heading down from Sugarcube Corner)
  - Sunset's Apartment (The road when heading down from The Sweet Snacks Cafe)
+ - Amphitheater (The road when heading right near Sugarcube Corner)
 
 ==Sunset's Apartment==
 
@@ -237,6 +238,16 @@ The following Interactive Circles has to be placed:
  - Cosmic Battle (near Sunset Shimmer's Couch and TV)
  - Grab the Coins! (Near Sunset Shimmer's Computer Desk)
  - Mainstreet A (The left of Sunset Shimmer's Apartment)
+
+==Amphitheater==
+
+There should be stuff behind the stage instead of empty space (the room where the mane 7 fell through in Rainbow Rocks.)
+If the player touches a button near the lever, Play "Pulls Lever (Left)" then after the lever pulls to the right, play "sound_trapdoor", then have the trapdoor on the stage open. If the player touches a button near the lever while the trapdoor is still open, Play "Pulls Lever (Right)", then after the lever pulls to the left, play "sound_trapdoor_close" with the trapdoor on the stage closing.
+The following Interactive Circles has to be placed:
+ - Passcode Beat (The Mic Check on the left of the stage)
+ - Dance Off (The stage)
+ - Grab the Coins! (near the counter with a computer in a classroom in the second floor)
+ - Mainstreet A (The Entrance/Exit)
 
 ==Archery==
 
@@ -254,6 +265,20 @@ If Time runs out, have the player automatically release the arrow.
 Fade to Black after the player's score is added, then fade in at the same position.
 Intro: Fade in to the target, then move the camera to the position of the players. (Hold there until after the "START" disappear), than cut to the target in first person.
 Play "music_archery_rollerblades_motocross_theme" throughout the minigame, or "music_archery_rollerblades_motocross_theme_night" if it's played at night.
+
+==Passcode Beat==
+
+Player 1 always goes first.
+The number for each pattern is played randomly.
+If the player completes a pattern, have the next player go next.
+If the player presses the wrong number or miss, play "sound_numpadwrong", then after a second delay, play "sound_passcodebeat_trapdoor" with the trapdoor opening and after the player falls through, play their "falling" sound. Then after "sound_passcodebeat_trapdoor" finishes, with a second delay, play "sound_passcodebeat_closed" with the trapdoor closing, eliminating the player.
+Every time the player pushes the correct number have the correct number highlighted, or if the player pushes the wrong number, have the number highlighted, but covered it with an "X"
+If three players are eliminated or 20 rows has been cleared, cue "FINISH".
+There are 10 boxes on the top and bottom rows for pushing the numbers, If the tenth box is displayed after the player gets all right, show the bottom box all the way to the left.
+Repeat the same pattern after the player gets eliminated.
+Each time a number button is pushed or is heard at the start of the player's turn, play "sound_numpad", (e.g. if "1" is pushed, play "sound_numpad1" and vice versa)
+If two or more players survived after "FINISH", the minigame ends in a DRAW.
+Between turns, have the three players away from the trap door, and one players on the trap door, but near the table and the passcode attached. If the player survives that turn, have the players walk away from the trapdoor, and the next player walk near the table.
 
 ==Soccer==
 
@@ -479,3 +504,4 @@ The following amount of health taken away depends on the attacks: (Punch Attacks
 Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
 Whenever a character attacks another character or an object or wall by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
 Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.
+
