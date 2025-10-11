@@ -43,7 +43,7 @@ There needs to be an extra platform for the drums on the stage.
 The Amphitheater model needs to be redone to look identical to its appearance in Rainbow Rocks. (The seats are too far from the speakers, the room behind the stage needs to be bigger like the height has to be adjusted and the roof that's attached to the stage isn't curved.
 The wall textures (that's attached to the seats) needs a clean up. (a tiny bit of realistic wall texture showing and there needs to be rectangle shapes in the wall)
 (Note: Until the first task is complete, don't do the following tasks until later.)
-There should be stuff under the stage instead of empty space (the room where the mane 7 fell through in Rainbow Rocks.)
+There should be stuff under the stage instead of empty space (the room where the mane 7 fell through in Rainbow Rocks, wire hoses attached to the wall, microphone stand and speakers should be in there.)
 
 ==For All Maps==
 
@@ -76,6 +76,7 @@ There should be stuff under the stage instead of empty space (the room where the
 - The colour on Sunset Shimmer's pajama shirt's neckline needs to be red, not dark purple, and the neckline needs to be a little bit more bigger.
 - Create two seperate hair models for the mane 7, one with wet hair when jumping into the water and singed hair when getting electrocuted.
 - The images in concept (found in the development assets) has a list that needs to be modeled.
+
 
 
 
