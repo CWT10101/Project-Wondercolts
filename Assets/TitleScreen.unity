@@ -16709,8 +16709,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11, y: -609}
-  m_SizeDelta: {x: 943.295, y: 2273.5176}
+  m_AnchoredPosition: {x: 15, y: -602.88}
+  m_SizeDelta: {x: 1442.6, y: 2285.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1451758825
 MonoBehaviour:
@@ -16759,8 +16759,8 @@ MonoBehaviour:
     Shimmer</color>\r\nRebecca Shoichet\r\n\r\n<color=magenta>Voice of Applejack
     and Rainbow Dash</color>\r\nAshleigh Ball\r\n\r\n<color=magenta>Voice of Fluttershy
     and Pinkie Pie</color>\r\nAndrea Libman\r\n\r\n<color=magenta>Voice of Rarity</color>\r\nTabitha
-    St. Germain\r\n\r\n<color=magenta>Special Thanks</color>\r\nCreatorOfPony \nJamie
-    Hollinshead (JimJam108)\nand the Team of MLP: FIM, Ponykart and Legends of Equestria\n\n<color=magenta>\"Open
+    St. Germain\r\n\r\n<color=magenta>Special Thanks</color>\r\nCreatorOfPony\nEFK-San/Fluttershy-EK\nJamie
+    Hollinshead (JimJam108)\nand the Team of MLP: FIM, PonyKart and Legends of Equestria\n\n<color=magenta>\"Open
     Sans\" Font</color>\r\nby Steve Matteson\r\n\r\n<color=magenta>\"Joystix Monospace\"
     Font</color>\r\nby Ray Larabie\r\n\r\n<color=magenta>\"Stovetop\" Font</color>\r\nby
     Stu's Font Diner\r\n\r\n<color=magenta>\"Celestia\" Font</color>\r\nby Purple
