@@ -67,7 +67,6 @@ There should be stuff under the stage instead of empty space (the room where the
 - Applejack's Pajamas Outfit is a "Blanket Sleeper", and her Pajama's Outfit model does not cover her feet.
 - Create Skyboxs (optional).
 - Sindroom's V2 and V3 Character Models; (no disrespect) is not allowed, because I want the original models to be more faithful to the original materials, Wallflower Blush, Fleur De Lis and Coco Pommel were all made in these types, and requires to be remodeled like the rest, textures however can be left intact.
-- Create Pupils for Male characters.
 - Create Facial Shapekeys for character models.
 - Add Eyebrows for Spike.
 - Create Sunset Shimmer's Guitar that she uses for The Rainbooms.
@@ -76,6 +75,7 @@ There should be stuff under the stage instead of empty space (the room where the
 - The colour on Sunset Shimmer's pajama shirt's neckline needs to be red, not dark purple, and the neckline needs to be a little bit more bigger.
 - Create two seperate hair models for the mane 7, one with wet hair when jumping into the water and singed hair when getting electrocuted.
 - The images in concept (found in the development assets) has a list that needs to be modeled.
+
 
 
 
