@@ -35,7 +35,6 @@ fluttershy_cold2 ("Shivers"; Dragonshy)
 fluttershy_hit3 ("Squeals"; Dragonshy)
 fluttershy_hit5/hurt3 (Whoa!; Dragonshy)
 fluttershy_hurt2 ("Screams"; Castle Mane-ia/Trade Ya!)
-fluttershy_hurt4 (Aah...; Hearth's Warming Eve)
 fluttershy_hurt5 (Eek!; Party of One)
 fluttershy_hurt7 ("Screams"; Castle Mane-ia)
 fluttershy_hurt8 ("Screams"; The Return of Harmony Part 1)
@@ -90,4 +89,5 @@ rarity_hurt3 ("Screams"; Best Trends Forever)
 rarity_selected3 (You look smashing.; Friendship is Magic Part 2)
 rarity_shock ("Screaming"; Best Trends Forever)
 rarity_win2 (YES!)
+
 
