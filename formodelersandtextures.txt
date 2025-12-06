@@ -74,3 +74,4 @@ There should be stuff under the stage instead of empty space (the room where the
 - Sunset Shimmer's pajama shirt's neckline needs to be a little bit more bigger.
 - Create two seperate hair models for the mane 7, one with wet hair when jumping into the water and singed hair when getting electrocuted.
 - The images in concept (found in the development assets) has a list that needs to be modeled.
+- Micro Chips's model needs to have laces on his shoes.
