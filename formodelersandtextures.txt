@@ -57,8 +57,7 @@ There should be stuff under the stage instead of empty space (the room where the
 
 ---------------
 
-- As for the characters, "blender" files are included, since I had to download and import them to blender (credits are in "TitleScreen" found in the Assets folder), the only things that needs to be adjusted is the bones to the characters, I included both "BoneFix" files for better results, the first file "BoneFix.py" is the best option, although the only problem is the character's bones has to be connected perfectly, and can't look off, because when I did this, the right bone on the hip of the character looks way off, when I exported it to Unity, moving the right hip will have it lift to the left instead of straight, looking to see if someone can edit the BoneFix file to make the bones on the right hip look straight instead of being connected to the left.
-- "BoneFixSFM2.8.py" does connect the bones of both hips straight, but doesn't connect the bones to the head. (I strongly recommend editing and using the first option; especially because I want the playable character's hair to have movements; specifically when moving and falling.)
+- As for the characters, "blender" files are included, since I had to download and import them to blender (credits are in "TitleScreen" found in the Assets folder), the only things that needs to be adjusted is the bones to the characters, I included both "BoneFix" files for better results.)
 
 ==Character Models, Props and other textures==
 
@@ -76,4 +75,3 @@ There should be stuff under the stage instead of empty space (the room where the
 - The images in concept (found in the development assets) has a list that needs to be modeled.
 - Micro Chips's model needs to have laces on his shoes.
 - Add temples to Silver Spoon and Sugar Coat's glasses.
-- Fluttershy's "Rainbow Rocks Shorts" outfit model doesn't match the original materials, keep the head, hair and boots, everything else needs to be remodeled.
