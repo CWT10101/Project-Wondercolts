@@ -75,4 +75,5 @@ There should be stuff under the stage instead of empty space (the room where the
 - The images in concept (found in the development assets) has a list that needs to be modeled.
 - Micro Chips's model needs to have laces on his shoes.
 - Add temples to Silver Spoon and Sugar Coat's glasses.
-- Only changes need for Fluttershy's "Rainbow Rocks Shorts" outfit is that her skirt's length needs to be a little longer, and there needs to be a neck accessory on her neck.
+- Only changes need for Fluttershy's "Rainbow Rocks Shorts" outfit is that her skirt's length needs to be a little longer.
+
