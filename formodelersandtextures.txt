@@ -1,13 +1,6 @@
-Either download the map files "Maps_VMF.zip" found in the Development Assets by editing them using hammer, or start from scratch (with assets and textures included in the development assets, which is required to work with, if you haven't downloaded them, go to "https://archive.org/download/PWC-Development-Assets/Development%20Assets/" and download "Place These in Assets.7z".
+Blender files for the maps are found in the Development Assets. if you haven't downloaded them, go to "https://archive.org/download/PWC-Development-Assets/Development%20Assets/" and download "Maps.zip".
 If you have made the changes as mentioned below, let me know, sent me the files and I'll update it, and test it out for revisions.
 Blender, Maya or a similar software is required to create the models as their listed below.
-
-==Steps==
-
-1. Download the "Maps_VMF.zip file. (Link found in Read Me)
-2. Copy the files inside the "Maps_VMF.zip" (don't extract), into a different folder.
-3. Open Hammer.
-4. Open the forementioned maps that were decompiled, browse through the map to make sure there's no problems, "no "ERROR" objects showing up and all walls removed to show the black sky, (which is needed in order for the skybox to show up)
 
 ==Canterlot High==
 
@@ -21,20 +14,12 @@ Blender, Maya or a similar software is required to create the models as their li
 - Create and add more trees and bushes to avoid seeing mostly empty space.
 - Remove all three pictures of Sunset Shimmer found in Principal Celestia's office.
 - There should be a Woodshop, Portrait and another room identical to the big classroom found in floor 2, but with the walls and floors differently coloured, inside the school. You can put the rooms in floor 3, but wall and floors for certain rooms in floor 3 might have to be adjusted.
-- (Optional) Extend the map a little more with more roads, ground and houses to avoid seeing mostly empty space.
 - (Optional) Create a seperate (but bigger) Library room, (keep the library room that's connected into the stage before entering) since there's more bookshelves in the back, and the stair height has to be 13 instead of 34.
-
-==Mainstreet A==
-
-- (Optional) Extend the map a little more with more roads, ground and buildings to avoid seeing mostly empty space.
 
 ==Sunset Shimmer's Apartment==
 
 - Create and replace the Keyboard Models based on the series, due to the ones not fitting it's art style.
-- Remove the bulletin board with pictures on it and the shelf that's faced horizontal next to the TV and Window in Sunset's Apartment.
-- Remove the secret room.
 - Add more buildings in Sunset Shimmer's Apartment (Especially when looking out the window inside).
-- Extend the map more with more roads, ground and buildings to avoid seeing mostly empty space.
 
 ==Amphitheater==
 
@@ -47,7 +32,6 @@ There should be stuff under the stage instead of empty space (the room where the
 
 ==For All Maps==
 
-- Remove all of the Derpy posters.
 - (Optional) Create and add graphical textures to other houses and buildings.
 
 ==Notes==
@@ -63,8 +47,7 @@ There should be stuff under the stage instead of empty space (the room where the
 
 - Sci-Twi's glasses on her "Sci-Twi", "Shorts" and "Camping" outfits doesn't have temples included on her glasses.
 - Applejack's Pajamas Outfit is a "Blanket Sleeper", and her Pajama's Outfit model does not cover her feet.
-- Create Skyboxs (optional).
-- Sindroom's V2 and V3 Character Models; (no disrespect) is not allowed, because I want the original models to be more faithful to the original materials, Wallflower Blush, Fleur De Lis and Coco Pommel were all made in these types, and requires to be remodeled like the rest, textures however can be left intact.
+- Sindroom's V2 and V3 Character Models; (no disrespect) is not allowed, because I want the original models to be more faithful to the original materials, Wallflower Blush, Fleur De Lis and Coco Pommel were all made in these types, but has to be remodeled like the rest, textures however can be left intact.
 - Create Facial Shapekeys for character models.
 - Add Eyebrows for Spike.
 - Create Sunset Shimmer's Guitar that she uses for The Rainbooms.
@@ -76,4 +59,5 @@ There should be stuff under the stage instead of empty space (the room where the
 - Micro Chips's model needs to have laces on his shoes.
 - Add temples to Silver Spoon and Sugar Coat's glasses.
 - Only changes need for Fluttershy's "Rainbow Rocks Shorts" outfit is that her skirt's length needs to be a little longer.
+
 
