@@ -5,14 +5,12 @@ Blender, Maya or a similar software is required to create the models as their li
 ==Canterlot High==
 
 - Add the Doctor's Room in any room that has the yellow background on the walls, but the floors on that room has to be replaced.
-- There should be more than one benches near the soccer field.
 - There should be a sports commentary near the soccer field.
 - There needs to be rails on the stairs in the library.
 - Create and add the Copier Printer Scanner Machine into the library.
 - Create and replace the Monitor and Keyboard Models based on the series, due to the ones not fitting it's art style.
 - There needs to be three Dovetail flags on the ceiling in the library.
 - Create and add more trees and bushes to avoid seeing mostly empty space.
-- Remove all three pictures of Sunset Shimmer found in Principal Celestia's office.
 - There should be a Woodshop, Portrait and another room identical to the big classroom found in floor 2, but with the walls and floors differently coloured, inside the school. You can put the rooms in floor 3, but wall and floors for certain rooms in floor 3 might have to be adjusted.
 - (Optional) Create a seperate (but bigger) Library room, (keep the library room that's connected into the stage before entering) since there's more bookshelves in the back, and the stair height has to be 13 instead of 34.
 
@@ -59,5 +57,6 @@ There should be stuff under the stage instead of empty space (the room where the
 - Micro Chips's model needs to have laces on his shoes.
 - Add temples to Silver Spoon and Sugar Coat's glasses.
 - Only changes need for Fluttershy's "Rainbow Rocks Shorts" outfit is that her skirt's length needs to be a little longer.
+
 
 
