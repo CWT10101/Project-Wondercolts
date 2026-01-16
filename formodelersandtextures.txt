@@ -35,7 +35,6 @@ There should be stuff under the stage instead of empty space (the room where the
 
 ==Notes==
 
-- If chosen to recreate the maps from scratch, please have the maps look exactly like it was when it was first made (albeit with some changes as listed above).
 - The character model parts needs to be created seperately, (hair, head, arms and hands, shirt, skirt, legs, shoes) as they were like that when the models were first made, and all were combined in another file by importing them. (unless if a long-sleeved shirt or jacket is made, only apply the hands, or if the character doesn't wear shoes, but flip flops or slippers, only apply the legs and feet together, or if it's Applejack's pajamas which is (Blanket Sleeper) which cover's the body except for the hands.
 
 ---------------
@@ -52,13 +51,8 @@ There should be stuff under the stage instead of empty space (the room where the
 - Create Sunset Shimmer's Guitar that she uses for The Rainbooms.
 - Rainbow Dash's guitar model doesn't have a strap.
 - Pinkie Pie's waitress hair model doesn't have a black hairband on her hair.
-- Sunset Shimmer's pajama shirt's neckline needs to be a little bit more bigger.
 - Create two seperate hair models for the mane 7, one with wet hair when jumping into the water and singed hair when getting electrocuted.
 - The images in concept (found in the development assets) has a list that needs to be modeled.
 - Micro Chips's model needs to have laces on his shoes.
 - Add temples to Silver Spoon and Sugar Coat's glasses.
 - Only changes need for Fluttershy's "Rainbow Rocks Shorts" outfit is that her skirt's length needs to be a little longer.
-
-
-
-
