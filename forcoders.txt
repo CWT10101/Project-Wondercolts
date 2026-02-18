@@ -202,19 +202,6 @@ CUTSCENE: If the player walks into the boys washroom, play "sound_enterboyswashr
 "ambience_school" has to be played when going inside the school.
 "ambience_cafeteria" has to be played when going inside the cafeteria.
 If a character is in idle for 30 seconds while in the freezer room found in the kitchen in the cafeteria, play "Shivering" animation with "Cold" voice clip playing, then when it's finished, play "Sneezes" animation with the character's "Sneezes" voice clip (except for Sunset Shimmer, loop the shivering animation) playing, then go back to play "Shivering" animation in a loop until the player moves.
-The following Interactive Circles has to be placed:
- - Soccer (the middle of the soccer field)
- - 1 on 1 Basketball (the middle of the basketball field)
- - Archery (near the wall where the two trophys on the left near the cafeteria in the first floor)
- - Motorcycle (near the wall where other awards on the right near the cafeteria in the first floor)
- - Rollerblades (near the wall with trophys and a football trophy and the door in the cafeteria in the first floor)
- - Memory Game (near the counter, with the two computers and shelf of books in the yearbook room in the first floor)
- - Dance Off (The stage in the gym)
- - Match the Ingredients (near the counter next to the oven and bowl in the kitchen in the first floor)
- - Don't pop the balloon! (The storage room in the gym)
- - Grab the Coins! (near the counter with a computer in a classroom in the second floor)
- - Battle Royale (next to the Canterlot High School statue near the wall where it has a portal)
- - Mainstreet A (The road near the soccer field and tree)
 
 ==Mainstreet A==
 
@@ -222,22 +209,11 @@ If the character is in idle for 30 seconds, while standing on the disco floor, h
 If the player hits a key while near the music machine, play a random music.
 "ambiance_mainstreet" is played when outside.
 If a character is in idle for 30 seconds while in the freezer room found in the kitchen in The Sweet Snacks Cafe, play "Shivering" animation with "Cold" voice clip playing, then when it's finished, play "Sneezes" animation with the character's "Sneezes" voice clip (except for Sunset Shimmer, loop the shivering animation) playing, then go back to play "Shivering" animation in a loop until the player moves.
-The following Interactive Circles has to be placed:
- - Dance Off (The Dance floor in The Sweet Snacks Cafe)
- - Grab the Coins! (near the door)
- - Battle Royale (near the wall next to the vending machine)
- - Canterlot High (The road when heading down from Sugarcube Corner)
- - Sunset's Apartment (The road when heading down from The Sweet Snacks Cafe)
- - Amphitheater (The road when heading right near Sugarcube Corner)
 
 ==Sunset's Apartment==
 
 CUTSCENE: If the player touches the entrance door, quickly fade out, after the character opens the door and enters, then fade in to have the character teleport to Sunset's room.
 "ambience_mainstreet" is played when outside.
-The following Interactive Circles has to be placed:
- - Cosmic Battle (near Sunset Shimmer's Couch and TV)
- - Grab the Coins! (Near Sunset Shimmer's Computer Desk)
- - Mainstreet A (The left of Sunset Shimmer's Apartment)
 
 ==Amphitheater==
 
@@ -504,4 +480,5 @@ The following amount of health taken away depends on the attacks: (Punch Attacks
 Whenever a character punches, performs a spin attack or swings her sword, have "swing_hit_texture.png" appear at the duration from their arms, legs or the blades from their sword.
 Whenever a character attacks another character or an object or wall by punching, performing a spin attack or from a sword, have "impact.png" appear at the duration it was being impacted by.
 Have "sparkle_texture1.png", "sparkle_texture2.png", "Sparkles.png", "TextureAtlas02.png", and "Sparkle.png (found in FX/Sparkles) appear on Twilight's Hand and Rarity's Magic Shield whenever they use "Telekinesis" or "Shield Power" power-ups.
+
 
