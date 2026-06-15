@@ -128,7 +128,7 @@ The Camera Lines only saves the game (Functions like Camera Mode in The Sims).
 The selection default is Character Poses, if BG or Filter is selected, have one of them that is selected, appear with different choices.
 Every time the Camera button is clicked on, play "sound_camera_shot", then save capture the image on the "Pictures" folder on where the game is being located.
 The orders of poses in the "Character Folder" for the Animations (Normal Idle, Shooting Pose 1, Shooting Pose 2, Shooting Pose 3, Shooting Pose 4, Shooting Pose 5, Shooting Pose Trophy, Shooting Pose Guitar)
-The orders of Backgrounds in the "BG Folder" (1, 2, 3, camera_burst_1, camera_pain_1, camera_scary, Night Sky, Instrument, RRBG_1, RRBG_2, RRBG_3, RRBG_4, RRBG_5, RRBG_6, RRBG_7, BG_Swirls, camera_certain, camera_hearts, 10, 11, BG_Blue, BG_Yellow)
+The orders of Backgrounds in the "BG Folder" (1, 2, 3, camera_burst_1, camera_pain_1, camera_scary, Night Sky, Instrument, RRBG_1, RRBG_2, RRBG_3, RRBG_4, RRBG_5, RRBG_6, RRBG_7, BG_Swirls, camera_certain, camera_hearts, 10, 11, 12, BG_Blue, BG_Yellow, sunsetsplit)
 
 ==Pause Menu==
 
@@ -219,7 +219,7 @@ CUTSCENE: If the player touches the entrance door, quickly fade out, after the c
 
 There should be stuff behind the stage instead of empty space (the room where the mane 7 fell through in Rainbow Rocks.)
 If the player touches a button near the lever, Play "Pulls Lever (Left)" then after the lever pulls to the right, play "sound_trapdoor", then have the trapdoor on the stage open. If the player touches a button near the lever while the trapdoor is still open, Play "Pulls Lever (Right)", then after the lever pulls to the left, play "sound_trapdoor_close" with the trapdoor on the stage closing.
-The following Interactive Circles has to be placed:
+The following Interactive Circles needs to be coded:
  - Passcode Beat (The Mic Check on the left of the stage)
  - Dance Off (The stage)
  - Grab the Coins! (near the counter with a computer in a classroom in the second floor)
@@ -339,14 +339,14 @@ If a player crosses the finish line in 2nd or worse, Play their "Lose" voice cli
 
 If both pairs are different, play "sound_memory_bad_pair"
 Every time a card is clicked on or selected, play "sound_memory_flip"
-If both pairs are the same, play "sound_memroy_good_pair"
+If both pairs are the same, play "sound_memory_good_pair"
 Intro: Fade in, have the cards slide in 5 x 3 (except for the middle middle row), with "sound_memory_shuffle" played first, then "sound_memory_slide".
-Stop the timer from a player who got all good pairs.
 If all players gets all good pairs, cue "FINISH".
 The images for the cards are randomized.
 For each good pair, animate to have the good pairs, together, then zoom in slightly, and disappear with a Special FX (Magic.png) with "sound_memory_match" playing.
 The background pattern for the minigames needs to move up left in a loop.
 The player who selects the minigame chooses the category first.
+If a player get all good pairs, stop the timer and play "sound_memory_finish".
 
 ==Cosmic Battle==
 
