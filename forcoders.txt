@@ -231,7 +231,7 @@ Have the "ROUND %d" zoom in to the center for 2 seconds, then zoom out.
 Three rounds are played, If player 4 uses up 5 arrows, proceed to round 2, then 3, and cue "FINISH".
 Start the arrow ammo at 5.
 After the player use up 5 arrows, have the next player play.
-The arrow for the meter goes up and down and can be stopped by pressing a key.
+The arrow for the meter goes up and down and left and right can be stopped by pressing a key.
 Fade in the player's collect (as seen below the player's score) for 2 seconds, then fade out, while "sound_score" plays.
 After the player's collect fades out, add the total to the player's score (e.g. "+50", from 0 to 50)
 Every time the arrow is released, play "sound_archery_bow_release".
@@ -277,17 +277,15 @@ Don't show the meter if the player is not the kicker.
 ==1 on 1 Basketball== (Do not work on this until later, as the basketball model isn't created)
 
 If a player scores, show the scores. Have score on the left slide right, and the right slide left.
-The Hoop awards player 2/3 points each time. 
-The Player on the left has to score the right, while the player on the right has to score on the left.
+The Hoop awards player 2 points each time (or three if a player hoops two or more times in a row). 
+Player 1  has to score the right, while Player 2 has to score on the left.
 If a player has 21 points or time run out, cue "FINISH".
 Each game starts off with Player 1 holding the ball.
-If the player has the ball, play "Basketball - Dribble while Standing" animation when not moving, and "Basketball - Dribble while Moving" if the player moves.
-If the player pushes a button to jump while holding the ball without moving, play "Basketball - Jumps and Throws", or "Basketball - Jumps while moving" if the player pushes a button to jump while moving, don't have the player move the character until the animation is done. Also, have the timing on the basketball toss away from the player when the player is in midair of a jump.
-If a player pushes a button to punch while jumping without holding the ball, play "Basketball - Punch while in air" animation, then proceed to play "Landing" animation. If the player touches the ball, play "Basketball - Holding Basketball in air", then if the character lands to the ground, play "Basketball - Landing holding the Basketball". Don't have the player control the character until these animations are done.
-If the player jumps near the basketball net while holding the ball, play "Basketball - Grabbing on Rim and letting go" animation, don't have the player control the character until the animation is done.
-If the player throws the ball, have the ball fly towards the net, if the player is close to the net, have the player automatically score, due to "Basketball - Grabbing on Rim and letting go" animation playing, have the chances decrease if the player throws the ball and is further from the net. (Have the ball hit the rim, or the backboard, and bounced to the ground, unless the player touches it.)
+If the player has the ball, play "Holding Basketball/Volleyball" animation, then after both meters stops, play "Basketball - Jumps and Throws" with the ball flying out of their hands midair.
+If the player throws the ball, have the ball fly towards the net depending on the meter's duration.
 If the ball leaves the field, cue "OUT OF BOUNDS", then reset positions but with the player (who didn't throw the ball out of the field) in control of the ball.
-Each time the player scores or if the ball leaves the field, reset the character's position.
+Each time the player scores, misses, or if the ball leaves the field, cut to player 2, holding the ball facing the net on the left, and repeat. (Players has to take turns throwing the ball towards the net.)
+The arrow for the meter goes up and down and left and right can be stopped by pressing a key.
 
 ==Motocross==
 
