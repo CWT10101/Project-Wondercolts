@@ -231,7 +231,7 @@ Have the "ROUND %d" zoom in to the center for 2 seconds, then zoom out.
 Three rounds are played, If player 4 uses up 5 arrows, proceed to round 2, then 3, and cue "FINISH".
 Start the arrow ammo at 5.
 After the player use up 5 arrows, have the next player play.
-The arrow for the meter goes up and down and left and right can be stopped by pressing a key.
+The arrow for the meter goes up and down can be stopped by pressing a key.
 Fade in the player's collect (as seen below the player's score) for 2 seconds, then fade out, while "sound_score" plays.
 After the player's collect fades out, add the total to the player's score (e.g. "+50", from 0 to 50)
 Every time the arrow is released, play "sound_archery_bow_release".
