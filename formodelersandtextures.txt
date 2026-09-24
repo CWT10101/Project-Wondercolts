@@ -49,7 +49,7 @@ There should be stuff under the stage instead of empty space (the room where the
 - Create Facial Shapekeys for character models.
 - Add Eyebrows for Spike.
 - Create Sunset Shimmer's Guitar that she uses for The Rainbooms.
-- Rainbow Dash's guitar model doesn't have a strap and lightning bolt icon on the fingerboard.
+- Rainbow Dash's guitar model doesn't have a strap.
 - Pinkie Pie's waitress hair model doesn't have a black hairband on her hair.
 - Create two seperate hair models for the mane 7, one with wet hair when jumping into the water and singed hair when getting electrocuted.
 - The images in concept (found in the development assets) has a list that needs to be modeled.
